@@ -11,7 +11,7 @@ var bdMapController = {
     map: null,
     zoom: 7,
     bdMap_ak: 'V5YM1CIwjDz2OEFTs4EAoPpv',
-    //init BaiDuMap start
+    //init Travel Map start
     init: {
         handle: function(){
             bdMapController.init.initMap();
