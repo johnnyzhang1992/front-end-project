@@ -8,7 +8,8 @@
       "tag":"university",
       "name": "深圳大学",
       "address": "广东省深圳市南山区深大东路",
-      "url":""
+      "url":"",
+      "description":""
     },
     {
       "id":  "1",
@@ -17,7 +18,8 @@
       "tag":"university",
       "name": "河南科技大学",
       "address": "河南省洛阳市洛龙区开元大道263",
-      "url":""
+      "url":"",
+      "description":""
     },
     {
       "id":  "2",
@@ -26,7 +28,8 @@
       "tag":"university",
       "name": "济南大学",
       "address": "山东省济南市市中区大学路",
-      "url":""
+      "url":"",
+      "description":""
     },
     {
       "id":  "3",
@@ -35,7 +38,8 @@
       "tag":"university",
       "name": "山东大学",
       "address": "山东省济南市历城区书圣路",
-      "url":""
+      "url":"",
+      "description":""
     },
     {
       "id":  "4",
@@ -44,7 +48,8 @@
       "tag":"university",
       "name": "北京大学",
       "address": "北京市海淀区求知路",
-      "url":""
+      "url":"",
+      "description":""
     },
     {
       "id":  "5",
@@ -53,7 +58,8 @@
       "tag":"spot",
       "name": "泰山",
       "address": "山东省泰安市泰山区",
-      "url":""
+      "url":"",
+      "description":""
     },
     {
       "id":  "6",
@@ -62,7 +68,8 @@
       "tag":"spot",
       "name": "大鹏所城",
       "address": "广东省深圳市龙岗区南门西路",
-      "url":""
+      "url":"",
+      "description":""
     },
     {
       "id":  "7",
@@ -71,7 +78,8 @@
       "tag":"spot",
       "name": "梧桐山",
       "address": "广东省深圳市罗湖区",
-      "url":""
+      "url":"",
+      "description":""
     },
     {
       "id":  "8",
@@ -80,7 +88,8 @@
       "tag":"spot",
       "name": "龙门石窟",
       "address": "河南省洛阳市洛龙区S238",
-      "url":""
+      "url":"",
+      "description":""
     },
     {
       "id":  "9",
@@ -89,7 +98,8 @@
       "tag":"spot",
       "name": "黄河小浪底风景区",
       "address": "河南省河南省直辖县级行政单位济源市Y012(张大线)",
-      "url":""
+      "url":"",
+      "description":""
     },
     {
       "id":  "10",
@@ -98,7 +108,8 @@
       "tag":"spot",
       "name": "黛眉山",
       "address": "河南省洛阳市新安县S246",
-      "url":""
+      "url":"",
+      "description":""
     },
     {
       "id":  "11",
@@ -107,7 +118,8 @@
       "tag":"spot",
       "name": "龙潭大峡谷",
       "address": "河南省洛阳市新安县Y003(石杨线)",
-      "url":""
+      "url":"",
+      "description":""
     },
     {
       "id":  "12",
@@ -116,7 +128,8 @@
       "tag":"spot",
       "name": "白马寺",
       "address": "河南省洛阳市洛龙区G310",
-      "url":""
+      "url":"",
+      "description":""
     },
     {
       "id":  "13",
@@ -125,7 +138,8 @@
       "tag":"spot",
       "name": "龙脊梯田",
       "address": "广西壮族自治区桂林市龙胜各族自治县Y839",
-      "url":""
+      "url":"",
+      "description":""
     },
     {
       "id":  "14",
@@ -134,7 +148,8 @@
       "tag":"spot",
       "name": "阳朔十里画廊",
       "address": "广西壮族自治区桂林市阳朔县G321(十里画廊)",
-      "url":""
+      "url":"",
+      "description":""
     },
     {
       "id":  "15",
@@ -143,7 +158,8 @@
       "tag":"spot",
       "name": "上海外滩",
       "address": "上海市黄浦区中山东一路500号",
-      "url":""
+      "url":"",
+      "description":""
     },
     {
       "id":  "16",
@@ -152,7 +168,8 @@
       "tag":"spot",
       "name": "世博会中国馆",
       "address": "上海市浦东新区上南路205号",
-      "url":""
+      "url":"",
+      "description":""
     },
     {
       "id":  "17",
@@ -161,7 +178,8 @@
       "tag":"spot",
       "name": "杭州西湖",
       "address": "浙江省杭州市西湖区北山路82路",
-      "url":""
+      "url":"",
+      "description":""
     },
     {
       "id":  "18",
@@ -170,7 +188,8 @@
       "tag":"spot",
       "name": "故宫",
       "address": "北京市东城区内金水桥",
-      "url":""
+      "url":"",
+      "description":""
     },
     {
       "id":  "19",
@@ -179,7 +198,8 @@
       "tag":"spot",
       "name": "圆明园",
       "address": "北京市海淀区清华西路",
-      "url":""
+      "url":"",
+      "description":""
     },
     {
       "id":  "20",
@@ -188,7 +208,8 @@
       "tag":"spot",
       "name": "八达岭长城",
       "address": "北京市延庆县S216",
-      "url":""
+      "url":"",
+      "description":""
     }
   ]
 }

@@ -36,6 +36,11 @@ angular
             templateUrl: 'views/detail.html',
             controller: 'DetailCtrl'
         })
+        .when('/add', {
+          templateUrl: 'views/add.html',
+          controller: 'AddCtrl',
+          controllerAs: 'edit'
+        })
         .otherwise({
             redirectTo: '/'
         });
