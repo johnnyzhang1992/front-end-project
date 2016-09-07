@@ -1,0 +1,31 @@
+<div class="container">
+    <div class="col-md-offset-1 col-md-10 col-xs-12 clearfix" style="padding-top: 60px">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    我去过的地方
+                    <span class="pull-right">
+                        <a href="#/add" target="_blank"><i class="glyphicon glyphicon-plus" style="margin-right: 5px"></i>添加新的足迹</a>
+                    </span>
+                </h4>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped table-bordered">
+                    <tr ng-repeat="poi in poi_data">
+                        <td>编号</td>
+                        <td>{{poi.id}}</td>
+                        <td>{{poi.tag}}</td>
+                        <td><a href="#/{{poi.tag}}/{{poi.id}}" target="_blank">{{poi.name}}</a></td>
+                        <td>地址</td>
+                        <td>{{poi.address}}</td>
+                        <td><a href="#/{{poi.tag}}/{{poi.id}}"  ng-click="poi_edit()">编辑</a></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="panel-footer">
+                <a href="#/">返回首页</a>
+            </div>
+        </div>
+    </div>
+
+</div>

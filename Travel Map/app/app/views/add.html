@@ -1,0 +1,68 @@
+<div class="container">
+    <div class="col-md-offset-1 col-md-10 col-xs-12 clearfix" style="padding-top: 60px">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">{{title}}</h4>
+            </div>
+            <div class="panel-body">
+                <form role="form"  class="form-horizontal"  ng-submit="addNewPoi()">
+                    <!--ID-->
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label" for="id">ID</label>
+                        <div class="col-sm-10">
+                            <input type="text" id="id" ng-model="id" placeholder="ID" class="form-control" ng-disabled="true">
+                        </div>
+                    </div>
+                    <!--标签（Tag）-->
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label" for="tag">标签(Tag)</label>
+                        <div class="col-sm-10">
+                            <input  type="text" id="tag" ng-model="tag" placeholder="标签" class="form-control">
+                        </div>
+                    </div>
+                    <!--经纬度（LatLng）-->
+                    <div class="form-group">
+                        <div class="col-sm-6">
+                            <label class="col-sm-4 control-label" for="lat">经度(Lat)</label>
+                            <div class="col-sm-8">
+                                <input  type="text" id="lat" ng-model="lat" placeholder="经度" class="form-control">
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <label class="col-sm-4 control-label" for="lng">纬度(Lng)</label>
+                            <div class="col-sm-8">
+                                <input  type="text" id="lng" ng-model="lng" placeholder="纬度" class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                    <!--名称-->
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label" for="name">名称(Name)</label>
+                        <div class="col-sm-10">
+                            <input  type="text" id="name" ng-model="name" placeholder="名称" class="form-control">
+                        </div>
+                    </div>
+                    <!--地址(Address)-->
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label" for="address">地址(Address)</label>
+                        <div class="col-sm-10">
+                            <input  type="text" id="address" ng-model="address " placeholder="地址" class="form-control">
+                        </div>
+                    </div>
+                    <!--描述-->
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label" for="description">描述(Description)</label>
+                        <div class="col-sm-10">
+                            <textarea  rows="3" id="description" ng-model="description" placeholder="旅行描述" class="form-control"></textarea>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-success btn-lg" style="width: 100%;">保存</button>
+                </form>
+            </div>
+            <div class="panel-footer">
+                <a href="#/">返回首页</a>
+            </div>
+        </div>
+    </div>
+
+</div>
