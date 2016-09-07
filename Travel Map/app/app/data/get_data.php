@@ -1,7 +1,7 @@
 <?php
 header("Access-Control-Allow-Origin: *");
 header("Content-Type: json;charset=utf-8");
-$conn = new mysqli("qdm114439499.my3w.com", "qdm114439499", "ab199255", "qdm114439499_db");
+$conn = new mysqli("serve", "用户名", "密码", "数据库名称");
 $result = $conn->query("SELECT id, name, tag,address,lat,lng  FROM poi ORDER BY id");
 $outp ="";
 while($rs = $result->fetch_array(MYSQLI_ASSOC)) {
