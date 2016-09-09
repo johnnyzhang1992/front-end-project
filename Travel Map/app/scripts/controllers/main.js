@@ -9,7 +9,12 @@
  */
 angular.module('baidumapApp')
     .controller('MainCtrl',function () {
-        window.onload = loadJScript();  //异步加载地图
+        // window.onload = loadJScript();  //异步加载地图
+        $(document).ready(
+            bdMapController.init.handle(function () {
+                bdMapController.render.addMarker();
+            })
+        );
     })
     .controller('poiController',function ($scope, $http) {
         $http.get("data/data.json")

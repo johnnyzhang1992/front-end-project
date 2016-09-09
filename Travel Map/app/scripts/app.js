@@ -41,6 +41,11 @@ angular
           controller: 'AddCtrl',
           controllerAs: 'edit'
         })
+        .when('/others', {
+          templateUrl: 'views/others.html',
+          controller: 'OthersCtrl',
+          controllerAs: 'others'
+        })
         .otherwise({
             redirectTo: '/'
         });
