@@ -1,5 +1,8 @@
 html{height:100%}
 body{height:100%;margin:0px;padding:0px}
+i{
+  margin-right: 5px;
+}
 .navbar{
   margin-bottom: 0;
 }
@@ -51,7 +54,6 @@ body{height:100%;margin:0px;padding:0px}
 .marketing p + h4 {
   margin-top: 28px;
 }
-
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   /* Remove the padding we set earlier */
@@ -65,4 +67,165 @@ body{height:100%;margin:0px;padding:0px}
   .header {
     margin-bottom: 0;
   }
+}
+/*圆盘*/
+.BMap_stdMpCtrl{
+  display: none;
+}
+/*searchInforBox*/
+#BMapLib_transBox8 table td:first-child{
+  width: 40px;
+}
+#BMapLib_transBox8 table td:last-child{
+  width: 120px;
+}
+/*searchbox*/
+#searchbox{
+  position: absolute;
+  top:60px;
+  left:50px;
+  border-radius: 2px;
+  width: 425px;
+  z-index: 5;
+}
+#searchbox #searchbox-container {
+  position: relative;
+  z-index: 2;
+  pointer-events: auto;
+  width: 368px;
+  float: left;
+  box-sizing: border-box;
+  box-shadow: 1px 2px 1px rgba(0,0,0,.15);
+  background: #fff;
+}
+#sole-searchbox-content {
+  position: relative;
+}
+.searchbox-content {
+  width: 368px;
+  border-radius: 2px 0 0 2px;
+  background: #fff;
+}
+
+#sole-searchbox-content #sole-input {
+  box-sizing: border-box;
+  border: 0;
+  padding: 9px 0;
+  border-left: 10px solid transparent;
+  border-right: 27px solid transparent;
+  line-height: 20px;
+  font-size: 16px;
+  height: 38px;
+  color: #333;
+  position: relative;
+  border-radius: 2px 0 0 2px;
+  outline: 0;
+}
+.searchbox-content .searchbox-content-common {
+  box-sizing: border-box;
+  float: left;
+  width: 329px;
+  height: 38px;
+}
+#sole-searchbox-content .input-clear {
+  right: 39px;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx), (min-resolution: 192dpi){
+  .searchbox-content .input-clear {
+    background: url(http://webmap0.map.bdstatic.com/wolfman/static/common/images/retina/new-route-retian_39406a2.png) no-repeat -307px -10px #fff;
+    background-size: 428px auto;
+  }
+}
+.searchbox-content .input-clear {
+  cursor: pointer;
+  position: absolute;
+  width: 27px;
+  height: 38px;
+  top: 0;
+  background: url(http://webmap0.map.bdstatic.com/wolfman/static/common/images/new/searchbox_f175577.png) no-repeat 0 -114px #fff;
+  display: none;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx), (min-resolution: 192dpi){
+  .searchbox-content .searchbox-content-button.route-button {
+    background: url(http://webmap0.map.bdstatic.com/wolfman/static/common/images/retina/new-route-retian_39406a2.png) no-repeat -53px -12px;
+    background-size: 428px auto;
+  }
+  .searchbox-content .searchbox-content-button.route-button {
+    background: url(http://webmap0.map.bdstatic.com/wolfman/static/common/images/new/searchbox_f175577.png) no-repeat 0 0;
+  }
+}
+
+  .searchbox-content .searchbox-content-button {
+    box-sizing: border-box;
+    float: left;
+    height: 38px;
+    width: 39px;
+    cursor: pointer;
+    position: relative;
+  }
+
+.searchbox-content .searchbox-content-button.right-button:before {
+  content: '';
+  position: absolute;
+  width: 38px;
+  left: 0;
+  top: 6px;
+  height: 26px;
+  border-left: 1px solid #eee;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx), (min-resolution: 192dpi){
+  #searchbox #search-button {
+    background: url(http://webmap0.map.bdstatic.com/wolfman/static/common/images/retina/new-route-retian_39406a2.png) no-repeat -353px -63px #3385ff;
+    background-size: 428px auto;
+  }
+
+  #searchbox #search-button {
+    pointer-events: auto;
+    background: url(http://webmap0.map.bdstatic.com/wolfman/static/common/images/new/searchbox_f175577.png) no-repeat 0 -76px #3385ff;
+    width: 57px;
+    height: 38px;
+    float: left;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    border-radius: 0 2px 2px 0;
+    box-shadow: 1px 2px 1px rgba(0,0,0,.15);
+  }
+}
+#toast-wrapper {
+  pointer-events: auto;
+  visibility: hidden;
+  position: absolute;
+  width: 368px;
+  height: 35px;
+  left: 0;
+  bottom: -35px;
+  z-index: 1;
+  -webkit-transition: visibility .5s;
+  transition: visibility .5s;
+  overflow: hidden;
+}
+#toast {
+  box-sizing: border-box;
+  width: 100%;
+  line-height: 33px;
+  height: 35px;
+  text-align: center;
+  background: #ffffdf;
+  border: 1px solid #f4f4d3;
+  color: #666;
+  -webkit-transition: -webkit-transform .5s;
+  transition: transform .5s;
+  -webkit-transform: translate3d(0,-100%,0);
+  transform: translate3d(0,-100%,0);
+}
+#toast .info-tip-img {
+  background: url(http://webmap2.map.bdstatic.com/wolfman/static/common/images/fav/tip_3f7f5a2.png) 0 0 no-repeat;
+  width: 18px;
+  height: 18px;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+#toast .info-tip-text {
+  vertical-align: -2px;
 }

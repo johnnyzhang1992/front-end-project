@@ -16,7 +16,7 @@ var bdMapController = {
         handle: function(){
             bdMapController.init.initMap();
             bdMapController.init.initController();
-            bdMapController.init.initGeoLocationControl();
+            // bdMapController.init.initGeoLocationControl();
             bdMapController.init.initTool();
 
             bdMapController.render.marker_render();
@@ -31,8 +31,8 @@ var bdMapController = {
             //初始化控件
             bdMapController.map.addControl(new BMap.NavigationControl({
                 // 靠左上角位置
-                anchor: BMAP_ANCHOR_TOP_LEFT,
-                offset: new BMap.Size(20, 60),
+                anchor: BMAP_ANCHOR_TOP_RIGHT,
+                offset: new BMap.Size(20, 160),
                 // LARGE类型
                 type: BMAP_NAVIGATION_CONTROL_SMALL,
                 // 启用显示定位
@@ -43,7 +43,7 @@ var bdMapController = {
             bdMapController.map.addControl(new BMap.MapTypeControl());//地图类型
             bdMapController.map.addControl(new BMap.CityListControl({
                 anchor: BMAP_ANCHOR_TOP_RIGHT,
-                offset: new BMap.Size(80, 60)
+                offset: new BMap.Size(80, 80)
                 // 切换城市之间事件
                 // onChangeBefore: function(){
                 //    alert('before');
@@ -78,34 +78,54 @@ var bdMapController = {
             bdMapController.map.enableScrollWheelZoom();//启用滚轮放大缩小
             bdMapController.map.enableInertialDragging();
             bdMapController.map.enableContinuousZoom();
+            // bdMapController.map.SearchInfoWindow();
         }
     },
     render: {
         //小图标渲染函数
-        addMarker:function (latlng,name,tag,id) {
+        addMarker:function (latlng,name,tag,address,desc) {
+            if(tag=='spot'){
+                tag = '景点';
+            }else if(tag =='university'){
+                tag = '大学';
+            }
             var marker = new BMap.Marker(latlng);
-            bdMapController.map.addOverlay(marker);
+            // bdMapController.map.addOverlay(marker);
             //信息窗infoWindows
-            var sContent =
-                "<div><a href='#/"+tag+"/"+id+"' target='_blank'>"+
-                "<img id='imgDemo' src='http://app.baidu.com/map/images/tiananmen.jpg' width='100%' height='104' title='"+name+"'/></a>" +
-                "<p style='margin:0;line-height:1.5;font-size:13px;text-indent:2em'>"+name+"</p>" +
-                "</div>";
-            var infoWindow = new BMap.InfoWindow(sContent);  // 创建信息窗口对象
-            marker.addEventListener("click", function(){//小图标添加监听事件"click"
-                this.openInfoWindow(infoWindow);
-                //图片加载完毕重绘infowindow
-                document.getElementById('imgDemo').onload = function (){
-                    infoWindow.redraw();   //防止在网速较慢，图片未加载时，生成的信息框高度比图片的总高度小，导致图片部分被隐藏
-                };
+            // var sContent =
+            //     "<div><a href='#/"+tag+"/"+id+"' target='_blank'>"+
+            //     "<img id='imgDemo' src='http://app.baidu.com/map/images/tiananmen.jpg' width='100%' height='104' title='"+name+"'/></a>" +
+            //     "<p style='margin:0;line-height:1.5;font-size:13px;text-indent:2em'>"+name+"</p>" +
+            //     "</div>";
+            // var infoWindow = new BMap.InfoWindow(sContent);  // 创建信息窗口对象
+            var content = '<div style="margin:0;line-height:20px;padding:2px;">' +
+                '<img src="../images/yeoman.png" alt="" style="float:right;zoom:1;overflow:hidden;width:100px;height:100px;margin-left:3px;"/>' +
+                '地址：'+ address+'<br><i class="glyphicon glyphicon-tag"></i>' +tag+ '<br/>描述：'+desc + '</div>';
+            //创建检索信息窗口对象
+            var searchInfoWindow = null;
+            searchInfoWindow = new BMapLib.SearchInfoWindow(bdMapController.map, content, {
+                title  : name,      //标题
+                width  : 290,             //宽度
+                height : 105,              //高度
+                panel  : "panel",         //检索结果面板
+                enableAutoPan : true,     //自动平移
+                searchTypes   :[
+                    BMAPLIB_TAB_SEARCH,   //周边检索
+                    BMAPLIB_TAB_TO_HERE,  //到这里去
+                    BMAPLIB_TAB_FROM_HERE //从这里出发
+                ]
             });
+            marker.addEventListener("click", function(e){//小图标添加监听事件"click"
+                searchInfoWindow.open(marker);
+            });
+            bdMapController.map.addOverlay(marker); //在地图中添加marker
         },
         marker_render: function()  {
             var marker_points = {};
             $.ajax({
                 type:"get",
                 // url: "data/get_data.php",
-                url: "/data/data.json",
+                url: "data/data.json",
                 // dataType: "json",
                 async : false,
                 data:{},
@@ -123,8 +143,9 @@ var bdMapController = {
                     var latlng = new BMap.Point(marker_point.lng,marker_point.lat);
                     var name = marker_point.name;
                     var tag =marker_point.tag;
-                    var id = marker_point.id;
-                    bdMapController.render.addMarker(latlng,name,tag,id);
+                    var address =marker_point.address;
+                    var desc =marker_point.description;
+                    bdMapController.render.addMarker(latlng,name,tag,address,desc);
                 }
             }
 
@@ -136,15 +157,20 @@ var bdMapController = {
         }
     }
 };
-function loadJScript(){
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    script.src = "http://api.map.baidu.com/api?v=2.0&ak=V5YM1CIwjDz2OEFTs4EAoPpv&callback=bdMapController.init.handle";
-    document.body.appendChild(script);
-}
-
-
-window.onload = loadJScript();  //异步加载地图
+// function loadJScript(){
+//     var script = document.createElement("script");
+//     script.type = "text/javascript";
+//     script.src = "http://api.map.baidu.com/api?v=2.0&ak=V5YM1CIwjDz2OEFTs4EAoPpv&callback=bdMapController.init.handle";
+//     document.body.appendChild(script);
+// }
+//
+//
+// window.onload = loadJScript();  //异步加载地图
+$(document).ready(
+    bdMapController.init.handle(function () {
+        bdMapController.render.addMarker();
+    })
+);
 
 //工具
 // MarkerTool：标注工具。通过此工具用户可在地图任意区域添加标注。
