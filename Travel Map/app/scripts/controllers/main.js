@@ -8,13 +8,21 @@
  * Controller of the baidumapApp
  */
 angular.module('baidumapApp')
-    .controller('MainCtrl',function () {
+    .controller('MainCtrl',function ($scope) {
         // window.onload = loadJScript();  //异步加载地图
         $(document).ready(
             bdMapController.init.handle(function () {
                 bdMapController.render.addMarker();
             })
         );
+        $scope.box_show = true;
+        $scope.tool_toogle_box = function () {
+            $scope.box_show = !$scope.box_show;
+        };
+        $scope.measure = function () {
+            console.log('tool-open');
+         bdMapController.render.open_distance_tool()
+        }
     })
     .controller('poiController',function ($scope, $http) {
         $http.get("data/data.json")

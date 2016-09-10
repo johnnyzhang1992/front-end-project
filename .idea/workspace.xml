@@ -75,28 +75,28 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Travel Map/app/scripts/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="576">
+              <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="add.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Travel Map/app/views/add.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Travel Map/app/styles/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+            <state relative-caret-position="252">
+              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Travel Map/app/views/add.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="684">
+              <caret line="19" column="110" selection-start-line="19" selection-start-column="110" selection-end-line="19" selection-end-column="110" />
               <folding />
             </state>
           </provider>
@@ -333,8 +333,8 @@
       <recent name="C:\Users\zq199\PhpstormProjects\front-end-project" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\zq199\PhpstormProjects\front-end-project\Travel Map\app\styles" />
       <recent name="C:\Users\zq199\PhpstormProjects\front-end-project\Travel Map\app" />
+      <recent name="C:\Users\zq199\PhpstormProjects\front-end-project\Travel Map\app\styles" />
       <recent name="C:\Users\zq199\PhpstormProjects\front-end-project\Travel Map" />
       <recent name="C:\Users\zq199\PhpstormProjects\front-end-project" />
     </key>
@@ -408,7 +408,7 @@
       <workItem from="1473213929071" duration="15000" />
       <workItem from="1473259639086" duration="541000" />
       <workItem from="1473449072497" duration="391000" />
-      <workItem from="1473521552033" duration="381000" />
+      <workItem from="1473521552033" duration="1093000" />
     </task>
     <task id="LOCAL-00001" summary="Travel Map">
       <created>1472997567981</created>
@@ -473,11 +473,18 @@
       <option name="project" value="LOCAL" />
       <updated>1473449340453</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="整理小工具和实现部分搜索框功能">
+      <created>1473521982224</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1473521982224</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2999000" />
+    <option name="totallyTimeSpent" value="3711000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-13" y="-13" width="2762" height="1770" extended-state="6" />
@@ -520,7 +527,8 @@
     <MESSAGE value="日常更新" />
     <MESSAGE value="通过php拿去数据库的信息" />
     <MESSAGE value="增加搜索框以及弹出框改为集成搜索框" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加搜索框以及弹出框改为集成搜索框" />
+    <MESSAGE value="整理小工具和实现部分搜索框功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="整理小工具和实现部分搜索框功能" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -881,24 +889,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Travel Map/app/scripts/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Travel Map/app/views/add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="576">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Travel Map/app/styles/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        <state relative-caret-position="252">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Travel Map/app/views/add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="19" column="110" selection-start-line="19" selection-start-column="110" selection-end-line="19" selection-end-column="110" />
           <folding />
         </state>
       </provider>

@@ -36,8 +36,8 @@ var bdMapController = {
             });// 左上角，添加比例尺
             var top_right_navigation = new BMap.NavigationControl({
                 // 靠左上角位置
-                anchor: BMAP_ANCHOR_TOP_RIGHT,
-                offset: new BMap.Size(80, 80),
+                anchor: BMAP_ANCHOR_BOTTOM_RIGHT,
+                offset: new BMap.Size(40, 80),
                 // LARGE类型
                 type: BMAP_NAVIGATION_CONTROL_SMALL,
                 // 启用显示定位
@@ -45,7 +45,7 @@ var bdMapController = {
             });  //左上角，添加默认缩放平移控件
             var city_list_control = new BMap.CityListControl({
                 anchor: BMAP_ANCHOR_TOP_RIGHT,
-                offset: new BMap.Size(140, 90)
+                offset: new BMap.Size(243, 90)
                 // 切换城市之间事件
                 // onChangeBefore: function(){
                 //    alert('before');
@@ -164,6 +164,12 @@ var bdMapController = {
             // var ne = bounds.getNorthEast();
             // var lngSpan = Math.abs(sw.lng - ne.lng);
             // var latSpan = Math.abs(ne.lat - sw.lat);
+        },
+        open_distance_tool: function () {
+            var myDis = new BMapLib.DistanceTool(bdMapController.map);
+            console.log('tool');
+            myDis.open();  //开启鼠标测距
+            //myDis.close();  //关闭鼠标测距大
         }
     }
 };
