@@ -3,6 +3,10 @@ body{height:100%;margin:0px;padding:0px}
 i{
   margin-right: 5px;
 }
+.ng-hide{
+  display: none;
+}
+
 .navbar{
   margin-bottom: 0;
 }
@@ -69,9 +73,9 @@ i{
   }
 }
 /*圆盘*/
-.BMap_stdMpCtrl{
-  display: none;
-}
+/*.BMap_stdMpCtrl{*/
+  /*display: none;*/
+/*}*/
 /*searchInforBox*/
 #BMapLib_transBox8 table td:first-child{
   width: 40px;
@@ -143,7 +147,7 @@ i{
   height: 38px;
   top: 0;
   background: url(http://webmap0.map.bdstatic.com/wolfman/static/common/images/new/searchbox_f175577.png) no-repeat 0 -114px #fff;
-  display: none;
+  display: block;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx), (min-resolution: 192dpi){
   .searchbox-content .searchbox-content-button.route-button {
@@ -228,4 +232,13 @@ i{
 }
 #toast .info-tip-text {
   vertical-align: -2px;
+}
+/*工具*/
+.BMap_noprint.anchorTR{
+  position: absolute;
+  bottom: 10px!important;
+}
+/*城市列表*/
+.BMap_CityListCtrl .citylist_popup_main{
+  height:350px!important;
 }

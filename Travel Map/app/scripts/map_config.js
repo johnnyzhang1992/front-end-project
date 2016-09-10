@@ -16,7 +16,7 @@ var bdMapController = {
         handle: function(){
             bdMapController.init.initMap();
             bdMapController.init.initController();
-            // bdMapController.init.initGeoLocationControl();
+            bdMapController.init.initGeoLocationControl();
             bdMapController.init.initTool();
 
             bdMapController.render.marker_render();
@@ -29,21 +29,23 @@ var bdMapController = {
         },
         initController: function () {
             //初始化控件
-            bdMapController.map.addControl(new BMap.NavigationControl({
+            // 导航
+            var bottom_left_control = new BMap.ScaleControl({
+                anchor: BMAP_ANCHOR_BOTTOM_LEFT,
+                offset:new BMap.Size(60, 40)
+            });// 左上角，添加比例尺
+            var top_right_navigation = new BMap.NavigationControl({
                 // 靠左上角位置
                 anchor: BMAP_ANCHOR_TOP_RIGHT,
-                offset: new BMap.Size(20, 160),
+                offset: new BMap.Size(80, 80),
                 // LARGE类型
                 type: BMAP_NAVIGATION_CONTROL_SMALL,
                 // 启用显示定位
                 enableGeolocation: true
-            }));// 导航
-            bdMapController.map.addControl(new BMap.ScaleControl());//比例尺
-            bdMapController.map.addControl(new BMap.OverviewMapControl());//缩略图
-            bdMapController.map.addControl(new BMap.MapTypeControl());//地图类型
-            bdMapController.map.addControl(new BMap.CityListControl({
+            });  //左上角，添加默认缩放平移控件
+            var city_list_control = new BMap.CityListControl({
                 anchor: BMAP_ANCHOR_TOP_RIGHT,
-                offset: new BMap.Size(80, 80)
+                offset: new BMap.Size(140, 90)
                 // 切换城市之间事件
                 // onChangeBefore: function(){
                 //    alert('before');
@@ -52,7 +54,18 @@ var bdMapController = {
                 // onChangeAfter:function(){
                 //   alert('after');
                 // }
-            }));//城市列表
+            });//城市列表
+            var overview_map_control = new BMap.OverviewMapControl();//缩略图
+            var map_type_control = new BMap.MapTypeControl({
+                    anchor: BMAP_ANCHOR_BOTTOM_RIGHT,
+                    offset: new BMap.Size(20, 40)
+                });//地图类型
+            /*缩放控件type有四种类型:BMAP_NAVIGATION_CONTROL_SMALL：仅包含平移和缩放按钮；BMAP_NAVIGATION_CONTROL_PAN:仅包含平移按钮；BMAP_NAVIGATIO*/
+            bdMapController.map.addControl(bottom_left_control);//比例尺
+            bdMapController.map.addControl(top_right_navigation);//导航
+            bdMapController.map.addControl(overview_map_control);//缩略图
+            bdMapController.map.addControl(map_type_control);//地图类型
+            bdMapController.map.addControl(city_list_control);//城市列表
         },
         initGeoLocationControl: function () {
             // 添加定位控件
@@ -120,6 +133,7 @@ var bdMapController = {
             });
             bdMapController.map.addOverlay(marker); //在地图中添加marker
         },
+        // 获取图标信息
         marker_render: function()  {
             var marker_points = {};
             $.ajax({
@@ -129,13 +143,9 @@ var bdMapController = {
                 // dataType: "json",
                 async : false,
                 data:{},
-                success: function (data,status) {
-                    console.log(status);
-                     console.log(data);
+                success: function (data) {
                     marker_points = data.poi_data;
-                    // console.log(marker_points);
                 }
-
             });
             if(marker_points.length !== 0){
                 for (var i = 0; i < marker_points.length; i ++) {
