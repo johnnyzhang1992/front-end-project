@@ -167,7 +167,6 @@ var bdMapController = {
         },
         open_distance_tool: function () {
             var myDis = new BMapLib.DistanceTool(bdMapController.map);
-            console.log('tool');
             myDis.open();  //开启鼠标测距
             //myDis.close();  //关闭鼠标测距大
         }
