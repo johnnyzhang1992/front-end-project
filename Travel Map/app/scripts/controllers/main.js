@@ -16,16 +16,13 @@ angular.module('baidumapApp')
                 bdMapController.render.addMarker();
             })
         );
-
+        $scope.remove_latlng = true;
         $scope.get_latlng = function () {
+            $scope.remove_latlng = !$scope.remove_latlng;
             //单击获取点击的经纬度
             bdMapController.map.addEventListener("click", function (e) {
-                console.log(e.point.lat);
-                console.log(e.point.lng);
-                current_lat = e.point.lat;
-                current_lng = e.point.lng;
-                $scope.current_lat = current_lat;
-                $scope.current_lng = current_lng;
+                $('#current_lat').html("纬度："+e.point.lat);
+                $('#current_lng').html("经度："+e.point.lng);
             });
         };
         $scope.box_show = true;
@@ -34,6 +31,10 @@ angular.module('baidumapApp')
         };
         $scope.measure = function () {
             bdMapController.render.open_distance_tool()
+        };
+        $scope.hide_latlng = function () {
+            $scope.remove_latlng = true;
+            // bdMapController.map.removeEventListener("click", function () {});
         };
 
     })

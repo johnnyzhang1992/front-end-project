@@ -247,6 +247,10 @@ label.BMapLabel{
 .BMap_CityListCtrl .citylist_popup_main{
   height:350px!important;
 }
+.BMap_CityListCtrl a{
+  min-width: 100px;
+  text-align: center;
+}
 .ui_city_change{
   line-height: 36px!important;
   height: 36px!important;
@@ -288,6 +292,7 @@ label.BMapLabel{
   right:155px;
   border: 1px solid #c4c7cc;
   background-color: #fff;
+  min-width: 100px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx), (min-resolution: 192dpi){
   .boxutils.active,.boxutils:hover {
@@ -346,11 +351,17 @@ label.BMapLabel{
    background-image: url(http://webmap1.map.bdstatic.com/wolfman/static/common/images/retina/new_retain_c1648fb.png);
    background-size: 280px 115px;
  }
+ .latlng{
+   float: left;
+   height: 34px;
+   width: 20px;
+   line-height: 34px;
+ }
 .detail-box{
   position: absolute;
   top: 125px;
   right: 156px;
-  width: 87px;
+  width: 98px;
   background: #fff;
   box-shadow: 1px 2px 1px rgba(0,0,0,.15);
   float: left;
@@ -379,5 +390,37 @@ label.BMapLabel{
   margin-left: 2px;
   display: inline-block;
 }
+/*坐标*/
+.show-latlng{
+  opacity: 0.6;
+  position: absolute;
+  bottom: 100px;
+  right: 100px;
+  background: #000;
+  color: #fff;
+  line-height: 30px;
+}
+.show-latlng p{
+  margin-bottom: 0;
+}
+#current_lat,#current_lng{
+  padding: 5px 10px;
+  display: inline-block;
+  min-width: 110px;
 
-
+}
+#current_lat,#current_lng{
+  border-right: 1px solid #ddd;
+}
+.remove_latlng{
+  font-size: 17px;
+  cursor: pointer;
+  display: inline-block;
+  min-width: 50px;
+  padding: 5px 10px;
+  line-height: 30px;
+  text-align: center;
+}
+.remove_latlng i{
+  margin-top: 5px;
+}
