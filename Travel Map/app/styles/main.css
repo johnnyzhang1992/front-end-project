@@ -3,6 +3,10 @@ body{height:100%;margin:0px;padding:0px}
 i{
   margin-right: 5px;
 }
+input, button, select, textarea {
+  outline: 0;
+  font-family: inherit;
+}
 .ng-hide{
   display: none;
 }
@@ -537,6 +541,22 @@ label.BMapLabel{
     background: url(http://webmap0.map.bdstatic.com/wolfman/static/common/images/retina/new-route-retian_39406a2.png) no-repeat -210px -10px;
     background-size: 428px auto;
   }
+  .routebox .routebox-content .routebox-revert .routebox-revert-icon {
+    background: url(http://webmap0.map.bdstatic.com/wolfman/static/common/images/retina/new-route-retian_39406a2.png) no-repeat -248px -22px;
+    background-size: 428px auto;
+  }
+  .routebox .routebox-content .routebox-input .route-input-icon {
+    background: url(http://webmap0.map.bdstatic.com/wolfman/static/common/images/retina/new-route-retian_39406a2.png) no-repeat -276px -24px;
+    background-size: 428px auto;
+  }
+  .searchbox-content .input-clear {
+    background: url(http://webmap0.map.bdstatic.com/wolfman/static/common/images/retina/new-route-retian_39406a2.png) no-repeat -307px -10px #fff;
+    background-size: 428px auto;
+  }
+  #route-searchbox-content .routebox .routebox-content .routebox-input.route-end .route-input-icon {
+    background: url(http://webmap0.map.bdstatic.com/wolfman/static/common/images/retina/new-route-retian_39406a2.png) no-repeat -291px -24px;
+    background-size: 428px auto;
+  }
 }
 .route-tabs .tab-item i {
   display: inline-block;
@@ -583,4 +603,102 @@ label.BMapLabel{
   width: 39px;
   cursor: pointer;
   position: relative;
+}
+.routebox {
+  -webkit-transition: max-height 1s ease-in;
+  transition: max-height 1s ease-in;
+  overflow: hidden;
+}
+.routebox .routebox-content {
+  height: auto!important;
+  position: relative;
+}
+
+.searchbox-content .searchbox-content-common {
+  box-sizing: border-box;
+  float: left;
+  width: 329px;
+  height: 38px;
+}
+
+.routebox .routebox-content .routebox-revert {
+  width: 39px;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  cursor: pointer;
+}
+.routebox .routebox-content .routebox-revert .routebox-revert-icon {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 18px;
+  height: 14px;
+  margin-left: -9px;
+  margin-top: -7px;
+  background: url(http://webmap0.map.bdstatic.com/wolfman/static/common/images/new/revert_9adb172.png) no-repeat 0 0;
+}
+.routebox .routebox-content .routebox-inputs {
+  margin-left: 39px;
+}
+.routebox .routebox-content .routebox-input {
+  height: 40px;
+  width: 289px;
+  border-bottom: 1px solid #eaebed;
+  position: relative;
+}
+.routebox .routebox-content .routebox-input:last-child {
+  border-bottom: 0;
+}
+
+.routebox .routebox-content .routebox-input {
+  height: 40px;
+  width: 289px;
+  border-bottom: 1px solid #eaebed;
+  position: relative;
+}
+.routebox .routebox-content .routebox-input .route-input-icon {
+  width: 11px;
+  height: 10px;
+  background: url(http://webmap1.map.bdstatic.com/wolfman/static/common/images/new/start_f51000d.png) no-repeat 0 0;
+  position: absolute;
+  top: 15px;
+  left: 3px;
+}
+.routebox .routebox-content .routebox-input input {
+  box-sizing: border-box;
+  border: 0;
+  height: 100%;
+  width: 100%;
+  padding: 10px 0;
+  font-size: 14px;
+  border-left: 20px solid transparent;
+  border-right: 27px solid transparent;
+  line-height: 20px;
+}
+.input-iploc {
+  color: #3385ff;
+}
+.routebox .routebox-content .routebox-input .input-clear {
+  left: auto;
+  right: 0;
+  top: 1px;
+}
+.searchbox-content .input-clear {
+  cursor: pointer;
+  position: absolute;
+  width: 27px;
+  height: 38px;
+  top: 0;
+  background: url(http://webmap0.map.bdstatic.com/wolfman/static/common/images/new/searchbox_f175577.png) no-repeat 0 -114px #fff;
+  /*display: none;*/
+}
+.routebox .routebox-content .routebox-input .route-input-icon {
+  width: 11px;
+  height: 10px;
+  background: url(http://webmap1.map.bdstatic.com/wolfman/static/common/images/new/start_f51000d.png) no-repeat 0 0;
+  position: absolute;
+  top: 15px;
+  left: 3px;
 }

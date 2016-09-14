@@ -431,7 +431,7 @@
       <workItem from="1473521552033" duration="2408000" />
       <workItem from="1473693160201" duration="417000" />
       <workItem from="1473780150420" duration="667000" />
-      <workItem from="1473868166881" duration="22000" />
+      <workItem from="1473868166881" duration="650000" />
     </task>
     <task id="LOCAL-00001" summary="Travel Map">
       <created>1472997567981</created>
@@ -531,11 +531,18 @@
       <option name="project" value="LOCAL" />
       <updated>1473780215263</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="路线css">
+      <created>1473868210642</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1473868210642</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6132000" />
+    <option name="totallyTimeSpent" value="6760000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="0" width="2740" height="1755" extended-state="0" />
@@ -583,7 +590,8 @@
     <MESSAGE value="添加获取坐标" />
     <MESSAGE value="添加获取坐标功能实现" />
     <MESSAGE value="关键字提示输入" />
-    <option name="LAST_COMMIT_MESSAGE" value="关键字提示输入" />
+    <MESSAGE value="路线css" />
+    <option name="LAST_COMMIT_MESSAGE" value="路线css" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
