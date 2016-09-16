@@ -394,6 +394,11 @@ label.BMapLabel{
   margin-left: 2px;
   display: inline-block;
 }
+#search-button{
+  position: absolute;
+  top: 0;
+  left: 368px;
+}
 /*坐标*/
 .show-latlng{
   opacity: 0.6;
@@ -428,11 +433,12 @@ label.BMapLabel{
 .remove_latlng i{
   margin-top: 5px;
 }
+/*route*/
 #route-searchbox-content {
   z-index: 6;
   position: absolute;
-  top: 60px;
-  left: 50px;
+  top: 0;
+  left: 0;
   border-radius: 2px 0 0 2px;
   background: #fff;
 }
@@ -510,7 +516,7 @@ label.BMapLabel{
   #route-searchbox-content.bus .tab-item.bus-tab i {
     background-position: -66px -75px;
   }
-  #route-searchbox-content .route-tabs .tab-item.bus-tab i {
+  #route-searchbox-content  .tab-item.bus-tab i {
     background-position: -45px -75px;
   }
   .route-tabs .tab-item.drive-tab i {
@@ -525,10 +531,7 @@ label.BMapLabel{
   #route-searchbox-content.walk .tab-item.walk-tab i {
     background-position: -110px -103px;
   }
-  #route-searchbox-content .route-tabs .tab-item.walk-tab:hover i {
-    background-position: -110px -103px;
-  }
-  #route-searchbox-content .route-tabs .tab-item.walk-tab i {
+  #route-searchbox-content  .tab-item.walk-tab i {
     background-position: -90px -103px;
   }
   .route-tabs .tab-item.bike-tab i {

@@ -8,7 +8,11 @@
  * Controller of the baidumapApp
  */
 angular.module('baidumapApp')
-    .controller('MainCtrl',function ($scope) {
+    .controller('MainCtrl',function ($scope,$http) {
+        $http.get("data/data.json")
+            .success(function(response) {
+                $scope.poi_data = response.poi_data;
+            });
         // window.onload = loadJScript();  //异步加载地图
         var current_lat,current_lng;
         $(document).ready(
@@ -16,6 +20,7 @@ angular.module('baidumapApp')
                 bdMapController.render.addMarker();
             })
         );
+        $scope.searchbox_toggle = false;
         $scope.remove_latlng = true;
         $scope.get_latlng = function () {
             $scope.remove_latlng = !$scope.remove_latlng;
@@ -36,15 +41,7 @@ angular.module('baidumapApp')
             $scope.remove_latlng = true;
             // bdMapController.map.removeEventListener("click", function () {});
         };
-
-    })
-    .controller('poiController',function ($scope, $http) {
-        $http.get("data/data.json")
-            .success(function(response) {
-                $scope.poi_data = response.poi_data;
-            });
-    })
-    .controller('SearchCtrl',function ($scope) {
+        // searchbox
         $scope.clear = false;
 
         $scope.input_change = function () {
@@ -61,7 +58,7 @@ angular.module('baidumapApp')
             $scope.clear = false;
         };
         $scope.route_loading = function () {
-            
+
         };
         // 百度地图API功能
         function G(id) {
@@ -69,9 +66,9 @@ angular.module('baidumapApp')
         }
 
         var ac = new BMap.Autocomplete({//建立一个自动完成的对象
-                "input" : "sole-input"
-                ,"location" : bdMapController.map
-            });
+            "input" : "sole-input"
+            ,"location" : bdMapController.map
+        });
 
         ac.addEventListener("onhighlight", function(e) {  //鼠标放在下拉列表上的事件
             var str = "";
@@ -110,6 +107,32 @@ angular.module('baidumapApp')
 
             setPlace();
         });
+        // routebox
+        $scope.route_searchbox = true;
+        $scope.route_type= 'bus';
+        $scope.route_toggle = function () {
+            $scope.route_searchbox = !$scope.route_searchbox;
+            $scope.searchbox_toggle = !$scope.searchbox_toggle;
+        };
+        $scope.show_bus = function () {
+            $scope.route_type= 'bus';
+        };
+        $scope.show_drive = function () {
+            $scope.route_type= 'drive';
+        };
+        $scope.show_walk = function () {
+            $scope.route_type= 'walk';
+        };
+        $scope.show_bike = function () {
+            $scope.route_type= 'bike';
+        };
+        $scope.route_revert =function () {
+            //交换起点和终点
+            $scope.route_mid = $scope.route_start;
+            $scope.route_start = $scope.route_end;
+            $scope.route_end = $scope.route_mid;
+        }
+
     });
 
 
