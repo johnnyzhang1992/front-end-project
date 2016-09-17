@@ -131,8 +131,31 @@ angular.module('baidumapApp')
             $scope.route_mid = $scope.route_start;
             $scope.route_start = $scope.route_end;
             $scope.route_end = $scope.route_mid;
-        }
+        };
 
+        var routePolicy = [BMAP_TRANSIT_POLICY_LEAST_TIME,BMAP_TRANSIT_POLICY_LEAST_TRANSFER,BMAP_TRANSIT_POLICY_LEAST_WALKING,BMAP_TRANSIT_POLICY_AVOID_SUBWAYS];
+       //公交
+        var transit = new BMap.TransitRoute(bdMapController.map, {
+            renderOptions: {map: bdMapController.map},
+            policy: 0
+        });
+        var ac_bus = new BMap.Autocomplete({//建立一个自动完成的对象
+            "input" : "route-end-input",
+            "location" : bdMapController.map
+        });
+        ac_bus.addEventListener("onconfirm", function(e) {    //鼠标点击下拉列表后的事件
+            // var end   = $('#route-end-input').val();
+            // var start = $('#route-start-input').val();
+            var start = $scope.route_start;
+            var end   = $scope.route_end;
+            bdMapController.map.clearOverlays();
+            // var i=$("#driving_way select").val();
+            search(start,end,routePolicy[0]);
+            function search(start,end,route){
+                transit.setPolicy(route);
+                transit.search(start,end);
+            }
+        });
     });
 
 
