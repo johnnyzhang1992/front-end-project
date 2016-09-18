@@ -45,8 +45,6 @@ angular.module('baidumapApp')
         $scope.clear = false;
 
         $scope.input_change = function () {
-            $scope.sole_input =$('#sole-input').val();
-            // console.log($scope.sole_input.length);
             if($scope.sole_input.length>=2){
                 $scope.clear = true;
             }else{
@@ -108,6 +106,30 @@ angular.module('baidumapApp')
             setPlace();
         });
         // routebox
+        $scope.route_start_clear = false;
+        $scope.route_end_clear = false;
+        $scope.start_input_change = function () {
+            if($scope.route_start.length>=2){
+                $scope.route_start_clear = true;
+            }else{
+                $scope.route_start_clear = false;
+            }
+        };
+        $scope.end_input_change =function () {
+            if($scope.route_end.length>=2){
+                $scope.route_end_clear = true;
+            }else{
+                $scope.route_end_clear = false;
+            }
+        };
+        $scope.clear_start_input = function () {
+            $scope.route_start = '';
+            $scope.route_start_clear = false;
+        };
+        $scope.clear_end_input = function () {
+            $scope.route_end = '';
+            $scope.route_end_clear = false;
+        };
         $scope.route_searchbox = true;
         $scope.route_type= 'bus';
         $scope.current_type = 'bus';

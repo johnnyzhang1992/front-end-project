@@ -47,14 +47,14 @@
                 <div class="routebox-inputs">
                     <div class="routebox-input route-start" >
                         <div class="route-input-icon"></div>
-                        <input autocomplete="off" maxlength="256" placeholder="输入起点或在图区上选点" id="route-start-input" type="text" value="" ng-model="route_start">
-                        <div class="input-clear" title="清空" ></div>
+                        <input autocomplete="off" maxlength="256"  ng-change="start_input_change()" placeholder="输入起点或在图区上选点" id="route-start-input" type="text" value="" ng-model="route_start">
+                        <div class="input-clear" title="清空" ng-if="route_start_clear" ng-click="clear_start_input()" ></div>
                         <div class="route-input-add-icon"></div>
                     </div>
                     <div class="routebox-input route-end" >
                         <div class="route-input-icon"></div>
-                        <input autocomplete="off" maxlength="256" placeholder="输入终点" id="route-end-input" type="text" value="" ng-model="route_end">
-                        <div class="input-clear" title="清空" ></div>
+                        <input autocomplete="off" maxlength="256" ng-change="end_input_change()" placeholder="输入终点" id="route-end-input" type="text" value="" ng-model="route_end">
+                        <div class="input-clear" title="清空" ng-if="route_end_clear" ng-click="clear_end_input()"></div>
                     </div>
                 </div>
             </div>
