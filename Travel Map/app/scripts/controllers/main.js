@@ -110,21 +110,26 @@ angular.module('baidumapApp')
         // routebox
         $scope.route_searchbox = true;
         $scope.route_type= 'bus';
+        $scope.current_type = 'bus';
         $scope.route_toggle = function () {
             $scope.route_searchbox = !$scope.route_searchbox;
             $scope.searchbox_toggle = !$scope.searchbox_toggle;
         };
         $scope.show_bus = function () {
             $scope.route_type= 'bus';
+            $('#r-result').html('');
         };
         $scope.show_drive = function () {
             $scope.route_type= 'drive';
+            $('#r-result').html('');
         };
         $scope.show_walk = function () {
             $scope.route_type= 'walk';
+            $('#r-result').html('');
         };
         $scope.show_bike = function () {
             $scope.route_type= 'bike';
+            $('#r-result').html('');
         };
         $scope.route_revert =function () {
             //交换起点和终点
@@ -133,16 +138,36 @@ angular.module('baidumapApp')
             $scope.route_end = $scope.route_mid;
         };
 
-        var routePolicy = [BMAP_TRANSIT_POLICY_LEAST_TIME,BMAP_TRANSIT_POLICY_LEAST_TRANSFER,BMAP_TRANSIT_POLICY_LEAST_WALKING,BMAP_TRANSIT_POLICY_AVOID_SUBWAYS];
+        var bus_routePolicy = [BMAP_TRANSIT_POLICY_LEAST_TIME,BMAP_TRANSIT_POLICY_LEAST_TRANSFER,BMAP_TRANSIT_POLICY_LEAST_WALKING,BMAP_TRANSIT_POLICY_AVOID_SUBWAYS];
+        var drive_routePolicy = [BMAP_DRIVING_POLICY_LEAST_TIME,BMAP_DRIVING_POLICY_LEAST_DISTANCE,BMAP_DRIVING_POLICY_AVOID_HIGHWAYS];
        //公交
         var transit = new BMap.TransitRoute(bdMapController.map, {
-            renderOptions: {map: bdMapController.map},
-            policy: 0
+            renderOptions: {
+                map: bdMapController.map,
+                panel: "r-result"
+            }
+        });
+        // 0:最少时间,1:最少步行,2:不乘地铁
+        var driving = new BMap.DrivingRoute(bdMapController.map, {
+            renderOptions:{
+                map: bdMapController.map,
+                panel: "r-result",
+                autoViewport: true
+            }
+        });
+        // 0:最少时间,1:最短距离,2:避开高速
+        var walking = new BMap.WalkingRoute(bdMapController.map, {
+            renderOptions:{
+                map: bdMapController.map,
+                panel: "r-result",//结果面板
+                autoViewport: true
+            }
         });
         var ac_bus = new BMap.Autocomplete({//建立一个自动完成的对象
             "input" : "route-end-input",
             "location" : bdMapController.map
         });
+
         ac_bus.addEventListener("onconfirm", function(e) {    //鼠标点击下拉列表后的事件
             // var end   = $('#route-end-input').val();
             // var start = $('#route-start-input').val();
@@ -150,11 +175,32 @@ angular.module('baidumapApp')
             var end   = $scope.route_end;
             bdMapController.map.clearOverlays();
             // var i=$("#driving_way select").val();
-            search(start,end,routePolicy[0]);
-            function search(start,end,route){
-                transit.setPolicy(route);
-                transit.search(start,end);
+            // function search(start,end,route){
+            //     transit.setPolicy(route);
+            //     transit.search(start,end);
+            //
+            //     driving.search(start,end);
+            // }
+            switch($scope.route_type)
+            {
+                case 'bus':
+                    transit.search(start,end);
+                    break;
+                case 'drive':
+                    driving.search(start,end);
+                    break;
+                case 'walk':
+                    walking.search(start, end);
+                    break;
+                case 'bike':
+                    walking.search(start, end);
+                    break;
+                default:
+                    console.log('route_default');
+
             }
+
+
         });
     });
 
