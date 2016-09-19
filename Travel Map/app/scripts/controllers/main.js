@@ -20,7 +20,7 @@ angular.module('baidumapApp')
                 bdMapController.render.addMarker();
             })
         );
-        $scope.searchbox_toggle = false;
+        $scope.searchbox_toggle = true;//搜索框显示
         $scope.remove_latlng = true;
         $scope.get_latlng = function () {
             $scope.remove_latlng = !$scope.remove_latlng;
@@ -29,18 +29,18 @@ angular.module('baidumapApp')
                 $('#current_lat').html("纬度："+e.point.lat);
                 $('#current_lng').html("经度："+e.point.lng);
             });
-        };
+        };//获取坐标函数
         $scope.box_show = false;
-        $scope.tool_toogle_box = function () {
+        $scope.tool_toogle_box = function () {//搜索框显示函数
             $scope.box_show = !$scope.box_show;
         };
         $scope.measure = function () {
             bdMapController.render.open_distance_tool()
-        };
+        };//打开坐标获取控件
         $scope.hide_latlng = function () {
             $scope.remove_latlng = true;
             // bdMapController.map.removeEventListener("click", function () {});
-        };
+        };//是否隐藏坐标显示面板
         // searchbox
         $scope.clear = false;
 
@@ -50,11 +50,11 @@ angular.module('baidumapApp')
             }else{
                 $scope.clear = false;
             }
-        };
+        };//搜索框输入监控
         $scope.clear_input = function () {
             $scope.sole_input= '';
             $scope.clear = false;
-        };
+        };//情况输入框
         $scope.route_loading = function () {
 
         };
@@ -130,9 +130,8 @@ angular.module('baidumapApp')
             $scope.route_end = '';
             $scope.route_end_clear = false;
         };
-        $scope.route_searchbox = true;
+        $scope.route_searchbox = false;
         $scope.route_type= 'bus';
-        $scope.current_type = 'bus';
         $scope.route_toggle = function () {
             $scope.route_searchbox = !$scope.route_searchbox;
             $scope.searchbox_toggle = !$scope.searchbox_toggle;
@@ -159,9 +158,8 @@ angular.module('baidumapApp')
             $scope.route_start = $scope.route_end;
             $scope.route_end = $scope.route_mid;
         };
-
-        var bus_routePolicy = [BMAP_TRANSIT_POLICY_LEAST_TIME,BMAP_TRANSIT_POLICY_LEAST_TRANSFER,BMAP_TRANSIT_POLICY_LEAST_WALKING,BMAP_TRANSIT_POLICY_AVOID_SUBWAYS];
-        var drive_routePolicy = [BMAP_DRIVING_POLICY_LEAST_TIME,BMAP_DRIVING_POLICY_LEAST_DISTANCE,BMAP_DRIVING_POLICY_AVOID_HIGHWAYS];
+        // var bus_routePolicy = [BMAP_TRANSIT_POLICY_LEAST_TIME,BMAP_TRANSIT_POLICY_LEAST_TRANSFER,BMAP_TRANSIT_POLICY_LEAST_WALKING,BMAP_TRANSIT_POLICY_AVOID_SUBWAYS];
+        // var drive_routePolicy = [BMAP_DRIVING_POLICY_LEAST_TIME,BMAP_DRIVING_POLICY_LEAST_DISTANCE,BMAP_DRIVING_POLICY_AVOID_HIGHWAYS];
        //公交
         var transit = new BMap.TransitRoute(bdMapController.map, {
             renderOptions: {
@@ -191,18 +189,9 @@ angular.module('baidumapApp')
         });
 
         ac_bus.addEventListener("onconfirm", function(e) {    //鼠标点击下拉列表后的事件
-            // var end   = $('#route-end-input').val();
-            // var start = $('#route-start-input').val();
             var start = $scope.route_start;
             var end   = $scope.route_end;
             bdMapController.map.clearOverlays();
-            // var i=$("#driving_way select").val();
-            // function search(start,end,route){
-            //     transit.setPolicy(route);
-            //     transit.search(start,end);
-            //
-            //     driving.search(start,end);
-            // }
             switch($scope.route_type)
             {
                 case 'bus':
@@ -219,10 +208,7 @@ angular.module('baidumapApp')
                     break;
                 default:
                     console.log('route_default');
-
             }
-
-
         });
     });
 
