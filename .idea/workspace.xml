@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c649b7f8-b798-4af0-aaab-5bec9a0f9cfb" name="Default" comment="">
+    <list default="true" id="c649b7f8-b798-4af0-aaab-5bec9a0f9cfb" name="Default" comment="列表页增加排序和搜索功能">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TravelMap/app/scripts/controllers/list.js" afterPath="$PROJECT_DIR$/TravelMap/app/scripts/controllers/list.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TravelMap/app/views/list.html" afterPath="$PROJECT_DIR$/TravelMap/app/views/list.html" />
     </list>
     <ignored path="front-end-project.iws" />
@@ -113,9 +112,10 @@
       <file leaf-file-name="list.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TravelMap/app/views/list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+            <state relative-caret-position="288">
+              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
               <folding>
+                <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
@@ -387,7 +387,7 @@
       <workItem from="1474466725876" duration="21000" />
       <workItem from="1474507950209" duration="26000" />
       <workItem from="1475252380308" duration="2664000" />
-      <workItem from="1475420917016" duration="1413000" />
+      <workItem from="1475420917016" duration="3046000" />
     </task>
     <task id="LOCAL-00001" summary="Travel Map">
       <created>1472997567981</created>
@@ -543,11 +543,18 @@
       <option name="project" value="LOCAL" />
       <updated>1474384984842</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="列表页增加排序和搜索功能">
+      <created>1475422361902</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1475422361902</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15878000" />
+    <option name="totallyTimeSpent" value="17511000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-13" y="-13" width="2762" height="1770" extended-state="6" />
@@ -602,7 +609,8 @@
     <MESSAGE value="公交，步行，驾车，骑行的输入框功能实现" />
     <MESSAGE value="结尾注释" />
     <MESSAGE value="change name" />
-    <option name="LAST_COMMIT_MESSAGE" value="change name" />
+    <MESSAGE value="列表页增加排序和搜索功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="列表页增加排序和搜索功能" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1001,9 +1009,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TravelMap/app/views/list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        <state relative-caret-position="288">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
           <folding>
+            <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>

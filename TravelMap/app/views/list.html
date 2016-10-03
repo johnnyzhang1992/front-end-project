@@ -11,12 +11,18 @@
             </div>
             <div class="row">
                 <div class="col-md-8 form-group">
-                    <label for="order" class="control-label">排序</label>
-                    <select ng-model="orderProp" class= form-control" id="order">
-                        <option value="tag">标签</option>
-                        <option value="id">ID</option>
-                        <option value="address">地址</option>
-                    </select>
+                    <form role="form">
+                        <div class="col-md-4 form-group" style="margin-top: 10px;margin-bottom: 0">
+                            <!--<label for="order" class="col-md-2 control-label">排序</label>-->
+                            <select class="col-md-10 form-control" id="order" ng-model="orderProp" >
+                                <option value="">原始</option>
+                                <option value="tag">标签</option>
+                                <option value="id">编号</option>
+                                <option value="address">地址</option>
+                            </select>
+                        </div>
+                    </form>
+
                 </div>
                 <div class="col-md-4">
                     <div style="padding: 10px 10px 0;">
