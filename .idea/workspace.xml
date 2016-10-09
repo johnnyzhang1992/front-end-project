@@ -2,66 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c649b7f8-b798-4af0-aaab-5bec9a0f9cfb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/me/img/avatar.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/me/img/biangua.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/me/img/blog.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/me/img/book.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/me/img/chrome.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/me/img/cv.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/me/img/jcorner.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/me/img/jwebaudio.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/me/img/map.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/me/img/zhujianer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/me/res/cv.indd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/todo/app/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/todo/app/images/yeoman.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/me/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/me/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/me/.idea/me.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/me/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/me/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/me/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/me/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/me/cn.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/me/css/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/me/gulpfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/me/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/me/js/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/me/js/index.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/me/scss/_base.global.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/me/scss/_components.columns.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/me/scss/_components.image.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/me/scss/_components.social.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/me/scss/_mobile.settings.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/me/scss/_settings.colors.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/me/scss/_settings.fonts.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/me/scss/_settings.links.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/me/scss/_settings.text.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/me/scss/main.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/me/vendor/jquery.pagepiling.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/me/vendor/jquery.pagepiling.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/me/vendor/jquery.pagepiling.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/todo/.bowerrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/todo/.editorconfig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/todo/.gitattributes" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/todo/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/todo/.jscsrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/todo/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/todo/.yo-rc.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/todo/Gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/todo/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/todo/app/404.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/todo/app/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/todo/app/robots.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/todo/app/scripts/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/todo/app/scripts/controllers/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/todo/app/styles/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/todo/app/views/main.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/todo/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/todo/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/todo/test/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/todo/test/spec/controllers/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/me/bower.json" afterPath="$PROJECT_DIR$/me/bower.json" />
     </list>
     <ignored path="front-end-project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -82,32 +24,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TravelMap/app/scripts/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-              <folding>
-                <element signature="e#334#458#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TravelMap/app/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1691">
-              <caret line="89" column="22" selection-start-line="89" selection-start-column="22" selection-end-line="89" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Gruntfile.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TravelMap/Gruntfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
+            <state relative-caret-position="2299">
               <caret line="417" column="6" selection-start-line="417" selection-start-column="6" selection-end-line="417" selection-end-column="6" />
               <folding>
                 <element signature="e#654#727#0" expanded="false" />
@@ -173,11 +93,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/todo/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+            <state relative-caret-position="1026">
+              <caret line="54" column="10" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gruntfile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/todo/Gruntfile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1007">
+              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/todo/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="627">
+              <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/me/gulpfile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="551">
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bower.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/me/bower.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -186,37 +146,9 @@
       <file leaf-file-name="cn.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/me/cn.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
+            <state relative-caret-position="1938">
               <caret line="102" column="31" selection-start-line="102" selection-start-column="29" selection-end-line="102" selection-end-column="61" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="map_config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TravelMap/app/scripts/map_config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="68" column="10" selection-start-line="68" selection-start-column="10" selection-end-line="68" selection-end-column="10" />
-              <folding>
-                <element signature="e#999#2785#0" expanded="false" />
-                <element signature="e#2831#3631#0" expanded="false" />
-                <marker date="1473535580764" expanded="true" signature="4796:4834" ph="..." />
-                <marker date="1473535580764" expanded="true" signature="4903:4979" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TravelMap/app/views/list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -240,6 +172,8 @@
         <option value="$PROJECT_DIR$/TravelMap/app/views/list.html" />
         <option value="$PROJECT_DIR$/TravelMap/Gruntfile.js" />
         <option value="$PROJECT_DIR$/me/README.md" />
+        <option value="$PROJECT_DIR$/todo/package.json" />
+        <option value="$PROJECT_DIR$/me/bower.json" />
       </list>
     </option>
   </component>
@@ -254,10 +188,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-13" />
-    <option name="y" value="-13" />
-    <option name="width" value="1380" />
-    <option name="height" value="924" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1096" />
+    <option name="height" value="1896" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -284,8 +218,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -301,6 +235,48 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="front-end-project" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="front-end-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="front-end-project" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TravelMap" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="front-end-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="front-end-project" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="todo" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="front-end-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="front-end-project" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="me" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -412,7 +388,9 @@
       <workItem from="1475420917016" duration="5789000" />
       <workItem from="1475589735491" duration="1034000" />
       <workItem from="1475664769840" duration="2144000" />
-      <workItem from="1475934873351" duration="179000" />
+      <workItem from="1475934873351" duration="624000" />
+      <workItem from="1475976376606" duration="619000" />
+      <workItem from="1476007561262" duration="227000" />
     </task>
     <task id="LOCAL-00001" summary="Travel Map">
       <created>1472997567981</created>
@@ -589,23 +567,30 @@
       <option name="project" value="LOCAL" />
       <updated>1475590169155</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="个人简历和TODO项目代码">
+      <created>1475935093576</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1475935093576</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23611000" />
+    <option name="totallyTimeSpent" value="24902000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-13" y="-13" width="1380" height="924" extended-state="0" />
+    <frame x="-8" y="-8" width="1096" height="1896" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2469697" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3262548" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980832" sideWeight="0.5015094" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32911393" sideWeight="0.49849057" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34449488" sideWeight="0.49849057" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -651,7 +636,8 @@
     <MESSAGE value="列表页增加排序和搜索功能" />
     <MESSAGE value="更新： 列表页增加排序和搜索功能" />
     <MESSAGE value="update Gruntfile.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="update Gruntfile.js" />
+    <MESSAGE value="个人简历和TODO项目代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="个人简历和TODO项目代码" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -660,42 +646,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Travel Map/app/app/data/data.json" />
-    <entry file="file://$PROJECT_DIR$/Travel Map/app/app/data/get_data.php" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="144">
-            <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TravelMap/app/data/data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TravelMap/.editorconfig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TravelMap/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -921,7 +871,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -929,7 +878,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
           <caret line="28" column="58" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -937,7 +885,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -945,7 +892,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1001,7 +947,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TravelMap/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
+        <state relative-caret-position="2299">
           <caret line="417" column="6" selection-start-line="417" selection-start-column="6" selection-end-line="417" selection-end-column="6" />
           <folding>
             <element signature="e#654#727#0" expanded="false" />
@@ -1043,7 +989,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/me/cn.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
+        <state relative-caret-position="1938">
           <caret line="102" column="31" selection-start-line="102" selection-start-column="29" selection-end-line="102" selection-end-column="61" />
           <folding />
         </state>
@@ -1070,8 +1016,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/todo/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+        <state relative-caret-position="1026">
+          <caret line="54" column="10" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1007">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/me/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/me/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
         </state>
       </provider>
