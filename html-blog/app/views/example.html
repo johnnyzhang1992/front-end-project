@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-CN">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>前端案例 - My lifebook</title>
+    <meta name="keywords" content="梦伊人,mengjia,盗墓笔记,旅游,游记,lifebook,个人博客,前端学习">
+    <meta name="description" content="lifebook-生活书，记录生活点滴">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="app/styles/bootstrap.min.css">
+    <link rel="stylesheet" href="app/styles/golbal.css">
+</head>
+<body>
+<!-- 顶部导航-->
+<nav class="navbar navbar-default">
+    <div class="container  col-lg-11  col-lg-offset-1">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header  ">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="http://mengjia.me">LIFEBOOK</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav list-inline">
+                <li><a href="index.html"><span class="glyphicon glyphicon-home "></span>HOME <span class="sr-only">(current)</span></a></li>
+                <li><a href="art.html"><span class="glyphicon glyphicon-music  "></span>ENT</a></li>
+                <li><a href="travel.html"><span class="glyphicon glyphicon-camera "></span>TRAVEL</a></li>
+                <li><a href="zaji.html"><span class="glyphicon glyphicon-edit"></span>WRITE</a></li>
+                <li><a href="novel.html"><span class="glyphicon glyphicon-book "></span>BOOK</a></li>
+                <li class="active"><a href="example.html"><span class="glyphicon glyphicon-list-alt "></span>ITEM</a></li>
+                <li><a href="about.html"><span class="glyphicon glyphicon-user "></span>ME</a></li>
+
+            </ul>
+            <!--搜索框search-->
+            <!-- <form class="navbar-form " role="search" >
+                 <div class="form-group input-group">
+                     <input type="text" name="s" id="search" placeholder="Search" value="" class="form-control form-group-lg">
+                     <span class="input-group-addon "><span class="glyphicon glyphicon-search"></span></span>
+                 </div>
+             </form>
+             -->
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+
+<!-- 正式内容  -->
+<div class="container col-lg-11 col-xs-12 col-sm-12 col-md-12 col-lg-offset-1 ">
+
+    <div class="row row-left col-lg-7 col-xs-12 col-sm-7 col-md-7">
+        <h4 class="row-header"><span class="glyphicon glyphicon-calendar"></span>前端案例</h4>
+        <ul class="list-group col-lg-12 col-xs-12 col-sm-12 col-md-12 " >
+            <li class="list-group-item">
+                <div class="col-sm-6 col-md-4 col-lg-4 col-xs-6">
+                    <div class="thumbnail">
+                        <a href="app/views/item/zhihu.html" title="在线浏览" ><img src="app/views/item/zhihu/zhihu1.png" alt="Html5移动web开发指南"></a>
+                        <div class="caption">
+                            <p class="text-center"><a href="app/views/item/zhihu.html">仿知乎首页</a></p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item">
+                <div class="col-sm-6 col-md-4 col-lg-4 col-xs-6">
+                    <div class="thumbnail">
+                        <a href="app/views/item/share.html" title="在线浏览" ><img src="app/views/item/share/images/share1.png" alt="JavaScript DOM 编程艺术"></a>
+                        <div class="caption">
+                            <p class="text-center"><a href="app/views/item/share.html">活动分享页面</a></p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item">
+                <div class="col-sm-6 col-md-4 col-lg-4 col-xs-6">
+                    <div class="thumbnail">
+                        <a href="app/views/item/zhuanpan.html" title="在线浏览" ><img src="app/views/item/zhuanpan/images/zhuanpan.png" alt="JavaScript 高级程序设计"></a>
+                        <div class="caption">
+                            <p class="text-center"><a href="app/views/item/zhuanpan.html">幸运转盘活动单页</a></p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+        </ul>
+        <!--翻页-->
+        <!-- <nav>
+            <ul class="pager ">
+                <li class="previous"><a href="#"><span aria-hidden="true">&larr;</span> Pre</a></li>
+                <li class="next"><a href="#">Next <span aria-hidden="true">&rarr;</span></a></li>
+            </ul>
+        </nav>
+        -->
+        <div class="btn-group btn-group-justified" role="group" aria-label="...">
+            <div class="btn-group btn-group-lg " role="group">
+                <button type="button" class="btn btn-default">More</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="row row-right col-lg-3 col-lg-offset-1 col-xs-12 col-sm-3 col-md-3">
+        <div class="row-right-con">
+            <h4 class="row-header1">推荐链接 </h4>
+            <div class="post-meta">
+                <ul class="list-group  list-inline">
+                    <li class="list-group-item"><h5><a href="http://ireply.cn" title="大学问-知乎校园问答精选|大学生问答社区">大学问</a></h5> </li>
+                    <li class="list-group-item"><h5><a href="http://zhihu.com" title="知乎- 与世界分享你的知识、经验和见解">知乎</a></h5> </li>
+                    <li class="list-group-item"><h5><a href="http://weibo.com/321009091" title="新浪微博-小小梦工场">微博</a></h5> </li>
+                    <li class="list-group-item"><h5><a href="http://seo.chinaz.com/" title="SEO综合查询-站长工具">站长之家</a></h5> </li>
+                </ul>
+            </div>
+            <div class="widget">
+                <iframe width="100%" height="100" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=550&fansRow=2&ptype=1&speed=0&skin=1&isTitle=1&noborder=1&isWeibo=0&isFans=0&uid=2477183313&verifier=b001128f&dpc=1"></iframe>
+            </div>
+            <h4 class="row-header1"></h4>
+            <div class="post-meta">
+                <ul class="list-inline list-group ">
+                    <li class="list-group-item"><h5><a href="" id="js-feedback-button">建议反馈</a></h5></li>
+                    <li class="list-group-item"><h5><a href="mailto:18238836800@126.com">商务合作</a></h5></li>
+                    <!--<li class="list-group-item "><h5><a href="m.html"></a></h5></li>-->
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="footer">&copy; 2015 | 鲁ICP备15006514号-1</div>
+    </div>
+
+</div>
+
+
+
+
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>

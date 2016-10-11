@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='UTF-8'>
+<meta name="format-detection" content="telephone=no"/>
+<meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, width=device-width">
+<meta name="HandheldFriendly" content="true"/>
+<meta name="MobileOptimized" content="320"/>
+<title>【惠锁屏大转盘】零元抽iPhone 6plus</title>
+<style type="text/css">
+html {
+	-webkit-text-size-adjust:100%;
+	-ms-text-size-adjust:100%;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, hr, button, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	margin:0;
+	padding:0;
+	font-family:Microsoft YaHei, Geneva, SimSun;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size:100%;
+	font-weight:normal
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display:block
+}
+audio, canvas, video {
+	display:inline-block;
+*display:inline;
+*zoom:1
+}
+input, select, textarea {
+	font-size:100%
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0
+}
+th {
+	text-align:inherit
+}
+fieldset, img {
+	border:0
+}
+iframe {
+	display:block
+}
+abbr, acronym {
+	border:0;
+	font-variant:normal
+}
+del {
+	text-decoration:line-through
+}
+ol, ul {
+	list-style:none
+}
+q:before, q:after {
+	content:''
+}
+div {
+	-moz-user-select:none;
+	-webkit-user-select:none;
+	-webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+	-webkit-focus-ring-color:rgba(0, 0, 0, 0);
+	display:block;
+}
+div:focus {
+	outline:0
+}
+input {
+	-webkit-appearance:none
+}
+select {
+	border:0;
+	background:0;
+	-webkit-appearance:none
+}
+.displayNone, .display-none {
+	display:none!important
+}
+.displayBox {
+	display:-webkit-box
+}
+input::-webkit-search-decoration, input::-webkit-search-cancel-button {
+display:none
+}
+a {
+	text-decoration:none
+}
+.frame {
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:10001;
+	width:100%;
+	height:100%;
+	background-color:#fff
+}
+.link {
+	width:100%;
+	height:100%
+}
+html {
+	font-size:62.5%;
+}
+ @media(min-width:480px) {
+html {
+font-size:22px;
+}
+}
+@media(min-width:320px) and (max-width:479px) {
+html {
+font-size:12px;
+}
+}
+@media(max-width:319px) and (max-width:240px) {
+html {
+font-size:7px;
+}
+}
+@media(max-width:239px) {
+html {
+font-size:3px;
+}
+}
+.content {
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:0px;
+	max-width:640px;
+	background-color:#fce9b1;
+}
+.clearfix {
+	display:block;
+	zoom:1
+}
+.clearfix:after {
+	content:" ";
+	display:block;
+	font-size:0;
+	height:0;
+	clear:both;
+	visibility:hidden
+}
+.share-cover {
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:10;
+	width:100%;
+	height:100%;
+	background-color:rgba(0, 0, 0, 0.6)
+}
+.share-box {
+	position:fixed;
+	bottom:0;
+	width:100%;
+	background-color:#fff
+}
+.share-list {
+	border-bottom:1px solid #f3f3f3
+}
+.share-item {
+	width:25%;
+	height:6.67rem;
+	padding-top:1.33rem;
+	float:left;
+	color:#aaa;
+	font-size:1.27rem;
+	text-align:center;
+	box-shadow:1px 0 0 #f3f3f3
+}
+.share-item.activated:active {
+	background-color:#cbcbcb
+}
+.share-item.activated.active {
+	background-color:#cbcbcb
+}
+.share-item.activated .share-img-wem {
+	background-position:-4.06rem 0
+}
+.share-item.activated .share-img-we {
+	background-position:-12.14rem 0
+}
+.share-item.activated .share-img-sms {
+	background-position:-4.06rem -3.53rem
+}
+.share-item.activated .share-img-copy {
+	background-position:-12.14rem -3.53rem
+}
+.share-item-img {
+	width:2.87rem;
+	height:2.87rem;
+	margin:0 auto 1.2rem;
+	background:url(/res/image/share.png) no-repeat;
+	background-size:20rem 6.87rem
+}
+.share-img-wem {
+	background-position:0 0
+}
+.share-img-we {
+	background-position:-8rem 0
+}
+.share-img-sms {
+	background-position:0 -3.53rem
+}
+.share-img-copy {
+	background-position:-8rem -3.53rem
+}
+.share-cancel {
+	width:80%;
+	height:4.33rem;
+	line-height:4.33rem;
+	color:#3c3d43;
+	font-size:1.73rem;
+	text-align:center;
+margin:.67rem auto 1.2rem;
+	background-color:#ebebeb
+}
+.bg-box {
+	margin-top:0px;
+	left:0;
+	z-index:-2;
+	width:100%;
+	height:36rem;
+	background-size:100% 36rem;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-color: #1ddbeb;
+}
+.price {
+	top:23rem;
+	z-index:1;
+	width:7.0rem;
+	height:7.0rem;
+	background-size:7.0rem 7.0rem;
+	position: relative;
+	-webkit-animation:leftdong 1.0s infinite;
+	background-image: url(images/lingyuan.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+ @-webkit-keyframes leftdong {
+0% {
+margin-left:60%;
+}
+50% {
+margin-left:62%;
+}
+100% {
+margin-left:60%;
+}
+}
+.head {
+		max-height:100%;
+	width:100%;
+	position: relative;
+	height:auto;
+	padding-top:.5rem;
+	width:13%;
+	margin-left:1%;
+
+}
+.head img {
+	max-width:100%;
+	max-height:100%;
+	float:left;
+}
+.taiyang {
+	top:2rem;
+	margin-left:6rem;
+	z-index:0;
+	width:6.0rem;
+	height:6rem;
+	background-size:6.0rem 6.0rem;
+	position: relative;
+	-webkit-animation: 10.0s infinite;
+	background-image: url(images/tyang_03.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	overflow:hidden;
+}
+.yun1 {
+
+left:3%;
+	top:15rem;
+	z-index:1;
+	width:4rem;
+	height:1.66rem;
+	background-size:100% 100%;
+	position: absolute;
+
+	-webkit-animation:yun0 10.0s infinite;
+	background-image: url(images/yun.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	overflow:hidden;
+}
+.yun2 {
+
+right:0%;
+	top:5rem;
+	z-index:1;
+	width:2rem;
+	height:1.2rem;
+	background-size:100% 100%;
+	position: absolute;
+
+	-webkit-animation:yun0 10.0s infinite;
+	background-image: url(images/yun1.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	overflow:hidden;
+}
+.yun3 {
+
+right:0%;
+	top:25rem;
+	z-index:1;
+	width:3rem;
+	height:1.59rem;
+	background-size:100% 100%;
+	position: absolute;
+
+	-webkit-animation:yun0 10.0s infinite;
+	background-image: url(images/yun2.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	overflow:hidden;
+}
+ @-webkit-keyframes yun1 {
+0% {
+margin-left:80%;
+}
+50% {
+margin-left:22%;
+}
+100% {
+margin-left:80%;
+}
+}
+.laoban {
+	max-height:100%;
+	width:100%;
+	position: relative;
+	height:auto;
+
+	background-color:#1ddbeb;
+	z-index:1;
+	margin-top:-2.5rem;
+}
+.laoban img{
+	width:77%;
+	float:left;
+	z-index:999;
+		margin-left:11.5%;
+}
+.zhuanpan {
+	position: relative;
+	max-height:100%;
+	width:100%;
+	height:auto;
+z-index:2;
+	background-color:#1ddbeb;
+top:-2rem;
+}
+.zhuanpan img {
+	width:77%;
+	float:left;
+		margin-left:11.5%;
+}
+
+.shan{
+    top:-1.5rem;
+	z-index:1;
+	padding-bottom:0px;
+	width:100%;
+	background-color: #1ddbeb;
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+.shan img {
+	margin-bottom:-6px;
+	width:100%;
+	z-index:2;
+}
+.numbers {
+	height:2rem;
+	line-height:2rem;
+	font-size:1.1rem;
+	color:#000;
+	width:50%;
+	margin:0 auto;
+	text-align:center;
+	margin-top:5px;
+	z-index:999;
+	position:relative;
+	top:1.5rem;
+}
+.number {
+	color:#ff9536
+}
+.button {
+	height:3.5rem;
+	line-height:3.5rem;
+	text-align:center;
+	font-size:1.8rem;
+	color:#fff;
+	border-radius:5px;
+	margin:0.5rem auto;
+	position:relative;
+	z-index:2;
+	top:-1.2rem;
+}
+.button.b1 {
+	background-color:#ed4545;
+box-shadow:0 .5rem 0 #d33232
+}
+.button.b1.waite {
+	background-color:#999;
+box-shadow:0 .5rem 0 #999
+}
+.b1:active {
+	background-color:#d33232
+}
+.button.b2 {
+	margin-top:2.2rem;
+	background-color:#ff9536;
+box-shadow:0 .5rem 0 #dc7010;
+	margin-bottom:2.2rem
+}
+.b2:active {
+	background-color:#dc7010
+}
+.details {
+	font-size:1.0rem;
+	line-height:1.5rem;
+	margin:0 0.3rem;
+	text-align:left;
+	margin-left:8%;
+}
+.details li{
+		margin:.3rem 0;
+}
+.details-title{
+	font-size:1.2rem;
+		line-height:1.4rem;
+		color: #000;
+		margin: 2% 2% 2% 5%;
+		line-height: 1.5rem;
+		}
+.details-title li{
+	margin:.3rem 0;
+}
+.rule{
+	margin:0 auto;
+	font-family:
+	Microsoft YaHei, Geneva, SimSun;
+	width:95%;
+}
+.rule b{
+	color:#906;
+}
+.rule-title {
+	height:2.0rem;
+	width:35%;
+	background-color: #FC3;
+	text-align:center;
+
+}
+.rule-title div{  
+    font-weight:bold;
+	font-size:1.5rem;
+	color:#FFF;
+
+}
+.rule-list {
+	line-height:2.5rem;
+	color:#333;
+	font-size:1.1rem;
+	padding:0rem 2rem 0 3rem
+}
+.footer {
+	color:#000;
+	font-size:1.3rem;
+	text-align:center;
+	margin-top: 2rem;
+	padding-bottom: 1rem;
+}
+.button.down-load {
+	margin-bottom:1.5rem
+}
+.icon1 {
+	display: none;
+}
+
+</style>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?faeb43eea7ca2b6a6331ca277a83389d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</head>
+<body>
+<div class="content">
+  <div class="icon1"> <img src="images/aaicon512.png"> </div>
+  <div class="yun1"></div>
+  <div class="yun2"></div>
+  <div class="yun3"></div>
+  <div class="box">
+    <div class='bg-box'>
+      <div class="head"><img src="images/logo.png"></div>
+      <div class='taiyang'></div>
+
+      <div class='laoban'><img src="images/tittle_03.png"></div>
+      <div class='zhuanpan'><img src="images/pan.png" border="0" usemap="#Map">
+
+      </div>
+    </div>
+    </div>
+    <div class="shan">   <div class="numbers">活动时间：<b>9/1-10/30</b></div><img src="images/shan.png"></div>
+ 
+    <div class="button" style="	width:50%;"> <a href="http://fusion.qq.com/cgi-bin/qzapps/unified_jump?appid=10043068">
+      <div class="button b1 down-load">立即抽奖</div>
+      </a></div>
+      
+    <div class='rule'>
+      <div class="rule-title"><div>活动说明</div></div>
+ 
+    <ul class="details-title">
+        <li>1、活动时间：<b>9月1日-10月30日</b></li>
+        <li>2、参与步骤</li>
+        <ul class="details" style="list-style-type:square;">
+        <li>点击"立即抽奖"<b>下载安装惠锁屏</b></li>
+        <li>在【惠锁屏】-首页【惠转】点击抽奖</li>
+        <li>抽奖后，查看中奖信息</li>
+        </ul>
+       <li>3、活动最终解释权归惠锁屏所有。</li>
+       </ul>
+    </div>
+    <footer class="footer">惠锁屏 · 解锁惠生活</footer>
+  </div>
+</div>
+</body>
+</html>

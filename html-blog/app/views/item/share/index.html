@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>惠锁屏,国内首款会赚钱的锁屏App</title>
+		<meta charset ="UTF-8" />
+		<meta name="description" content="惠锁屏" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="MobileOptimized" content="320"/>
+        <style type="text/css">
+        	body {
+        		margin: 0px;
+			color: #666666;
+        	}
+		
+                #content {
+        		margin-left: auto;
+        		margin-right: auto;
+        	}
+
+        	#content-first {
+	        	float: left;
+	        }
+
+	        #content-first ul {
+        		margin: 0px;
+        		padding: 0px;
+        		list-style: none;
+        	}
+
+        	#content-first ul li {
+        		margin: 0px 0px 20px;
+        		line-height: 28px;
+        		padding: 0px;
+        	}
+
+        	#download-link {
+			    background: #e71d35;
+			    color: #FFFFFF;
+			    cursor: pointer;
+			    display: inline-block;
+			    font-size: 18px;
+			    font-weight: 500;
+			    padding: 16px;
+			    text-align: center;
+			    vertical-align: middle;
+			    width: auto;
+				margin-bottom: 30px;
+				text-decoration: none;
+				-webkit-transition: background 0.1s linear 0s, color 0.1s linear 0s;	
+				-moz-transition: background 0.1s linear 0s, color 0.1s linear 0s;
+				-o-transition: background 0.1s linear 0s, color 0.1s linear 0s;
+				transition: background 0.1s linear 0s, color 0.1s linear 0s;
+			}
+
+			#download-link:hover {
+    			background: #DE5E60;
+    			color: #FFFFFF;
+			}
+
+			#content-seconed {
+				float: left;
+			}
+
+			#bottom-link a {
+				color:#DE5E60;
+				text-decoration: none;
+				cursor: pointer;
+				-webkit-transition: color 0.1s linear 0s;	
+	   			-moz-transition: color 0.1s linear 0s;
+			    -o-transition: color 0.1s linear 0s;
+		    	transition: color 0.1s linear 0s;
+			}
+
+			#bottom-link a:hover,
+			#bottom-link a:active,
+			#bottom-link a:focus{
+				outline: 0;
+				color: #e71d35;
+				text-decoration: none;
+			}
+			#invite-code {
+				color: #dc4607;
+				background-color: #fae093;
+				padding-left: 5px;
+				padding-right: 5px;
+				padding-top: 5px;
+				padding-bottom: 4px;
+				font-weight: bold;
+				font-size: 1.3em;
+			}
+
+        	@media(min-width: 1200px) {
+        		#content-first {
+	        		width: 370px;
+	        	}
+
+	        	#content {
+	        		width: 1024px;
+	        	}
+        	}
+
+	        @media(min-width: 768px) and (max-width:1200px) {
+	        	#content-first {
+	        		width: 100%;
+	        		text-align: center;;
+	        	}
+
+	        	#content {
+	        		width: 90%;
+	        	}
+			#content-seconed {
+                                width: 100%;
+                                text-align: center;
+                        }
+	        }
+
+	        @media(max-width: 768px) {
+	        	#content-first {
+	        		width: 100%;
+	        		text-align: center;;
+	        	}
+
+	        	#content {
+	        		width: 90%;
+	        	}
+
+	        	#download-link {
+	        		width : 80%;
+	        	}
+
+	        	#content-seconed {
+	        		width: 100%;
+	        		text-align: center;
+	        	}
+	        }
+
+	        @media(max-width: 480px) {
+	        	#content-first {
+	        		width: 100%;
+	        		text-align: center;;
+	        	}
+
+	        	#download-link {
+	        		width : 80%;
+	        	}
+
+	        	#content-seconed {
+	        		width: 100%;
+	        		text-align: center;
+	        	}
+	        }
+        </style>
+	</head>
+	<body>
+		<div id="content">
+			<div style="display :none;"><img src="images/icon_for_weixin_share.png" /></div>
+			<div id="content-first">
+				<div id="content-text">
+					<h3 style="font-size: 1.5em;"><span style="color: red;">惠</span>锁屏 MONEYLOCKER</h3>
+					<ul>
+						<li>国内首款会赚钱的锁屏App</li>
+						<li style="font-size: 1.1em; margin-bottom: 5px;">解锁即可赚钱，千万小伙伴锁屏“薪”选</li>
+						<li style="font-size: 0.9em; margin-bottom: 5px;">注册时填写邀请码<span id="invite-code">123456789</span></li>
+						<li><span style="color: red;">3元现金</span>立马到手!</li>	
+					</ul>
+				</div>
+				<div id="download-button">
+					<a id="download-link" onclick="downLoadApk(); return false;">立即下载，开始赚钱</a>
+				</div>
+			</div>
+			<div id="content-seconed">
+				<a id="image-link" href="#" onclick="return false;">
+					<img src="images/moneylocker.png" style="max-width: 100%;" />
+				</a>
+			</div>
+		</div>
+		<div id="bottom-link" style="text-align: center; clear: both; padding-top: 20px; padding-bottom: 20px;">
+			<a href="http://www.huisuoping.com">更多官网查看 &gt;</a>
+		</div>
+		<script>
+			var weixin_wait=2;
+		    function downLoadApk(){
+		    	if(is_weixin()==false){
+		    		location.href = "http://static.huaqianapp.com/apk/a001.apk";
+		    	}
+		    	else {
+				document.body.innerHTML = document.body.innerHTML + "<div id='loginiframe' style='position:fixed; _position:absolute; top:14px; z-index:20000; width:100%; height:48px; background:#fff; font:14px/25px 微软雅黑; color:#6a6a6a; padding:15px 0;'><div style='width:315px;float:right; margin-right:30px;'>微信请点击右上角 <span style='width:16px; height:16px; display:inline-block; background:url(http://www.huisuoping.com:80/resources/moneyLock_images/layerimg.png) no-repeat; vertical-align:middle; margin-top:-2px; margin-right:5px;'></span>, 使用“在浏览器中打开”, 即可下载体验。<s style='width:31px; height:14px; background:url(http://www.huisuoping.com:80/resources/moneyLock_images/arrow.png) no-repeat; display:block; position:absolute; top:-14px; right:14px;'></s></div></div><div id='zzbg' style='background-color:#000; width:100%; height:100%; left:0; top:0; filter:alpha(opacity=80); opacity:0.8; z-index:19999; position:fixed!important; position:absolute;'></div>";
+				weixin_time();
+		    	}
+		    }
+		    
+		    function is_weixin(){
+				var ua = navigator.userAgent.toLowerCase();
+				if(ua.match(/MicroMessenger/i)=="micromessenger") {
+					return true;
+			 	} else {
+					return false;
+				}
+			}
+		    
+		    function weixin_time() {
+					if (weixin_wait == 0) {
+						document.body.removeChild(document.getElementById("loginiframe"));
+						document.body.removeChild(document.getElementById("zzbg"));
+						weixin_wait = 2;
+					} else {
+						weixin_wait--;
+						setTimeout(weixin_time, 1000);
+					}
+			}
+		</script>
+	</body>
+<html>

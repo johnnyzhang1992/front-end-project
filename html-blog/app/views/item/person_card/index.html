@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>个人信息卡片式展示</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/popover-style.css" rel="stylesheet" type="text/css">
+    <link href="css/popover.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+   <!-- <script src="js/popover.js"></script>-->
+</head>
+<body>
+<!-- 仿新浪微博-->
+<div class="row person-card clearfix">
+    <div class="box">
+        <div class="box-head">
+            <div class="ueser-avatar">
+                <img src="img/avatar.jpg" class="img-circle">
+            </div>
+            <div class="person-name text-center">
+                <a class="name" title="小小梦工场">小小梦工场</a>
+                <!--<span class="person-sex" style="cursor: pointer">设置备注</span>-->
+                <em class="male gwk-icon" title="男"></em>
+            </div>
+            <div class="intro">
+                <span class="text-center">简介：时间会告诉你答案。</span>
+            </div>
+        </div>
+        <div class="box-footer">
+            <div class="box-footer-content">
+                <div class="gwk-count">
+                    <span class="gwk-follow"><a href="#">关注<em>571</em></a></span>
+                    <span class="gwk-fans"><a href="#">粉丝<em>1451</em></a></span>
+                </div>
+                <div class="user-info">
+                    <ul class="info-ul list-inline info-address">
+                        <li><a href="#">广东</a></li>
+                        <li><a href="#">深圳</a></li>
+                        <li><a href="#"></a></li>
+                    </ul>
+                </div>
+                <div class="box-label">
+                    <a href="#" class="label label-default label-skit"><i class="tag-name">滑雪</i></a>
+                    <a href="#" class="label label-default label-climb"><i class="tag-name">爬山</i></a>
+                    <a href="#" class="label label-default label-walk"><i class="tag-name">徒步</i></a>
+                </div>
+                <div class="btnbox">
+                    <a href="#" class="btn btn-sm follow"><i class="glyphicon glyphicon-plus"></i>&nbsp;&nbsp;关注</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 仿知乎-->
+<div class="popover-content no-hovercard" style="margin-top:50px;float:left;margin-left:50px;">
+    <div class="gwk-profile-card member">
+    <div class="upper">
+        <a class="avatar-link" href="#" style="">
+            <img src="img/avatar.jpg" class="avatar avatar-xs" alt="Johhny Zhang"   >
+            <span class="name">Johnny Zhang</span>
+        </a>
+        <i class="icon male"></i>
+        <div class="gwk-user-info">
+            <ul class=" list-inline gwk-info-address">
+                <li><a href="#">广东</a></li>
+                <li><a href="#">深圳</a></li>
+                <li><a href="#"></a></li>
+            </ul>
+        </div>
+        <div class="tagline" title="简介">要么旅游,要么阅读,心灵和脚步,总有一个在路上。</div>
+        <div class="tag">
+            <span>标签：</span>
+            <a href="#" class="label label-default label-skit"><i class="tag-name">滑雪</i></a>
+            <a href="#" class="label label-default label-climb"><i class="tag-name">爬山</i></a>
+            <a href="#" class="label label-default label-walk"><i class="tag-name">徒步</i></a>
+        </div>
+    </div>
+    <div class="lower clearfix">
+        <div class="meta">
+            <a class="item" target="_blank" href="#">
+                <span class="value">130</span>
+                <span class="key">想去</span>
+            </a>
+            <a class="item" target="_blank" href="#">
+                <span class="value">34</span>
+                <span class="key">去过</span>
+            </a>
+            <a class="item" target="_blank" href="#">
+                <span class="value">103K</span>
+                <span class="key">关注者</span>
+            </a>
+        </div>
+        <div class="operation">
+            <button data-follow="m:button" data-id="28" class="gwk-btn gwk-btn-follow gwk-rich-follow-btn">关注他</button>
+            <a href="#" class="gwk-btn-white member-profile-card-pm" data-pm-name="Johnny zhang" data-pm-hash="">
+                <i class="gwk-icon pm glyphicon glyphicon-envelope" title="私信"></i>
+            </a>
+        </div>
+    </div>
+</div>
+</div>
+<!--<button id="custom" class="btn btn-default" data-toggle="popover" title="Hello world" data-placement="bottom" data-content='
+<div class="popover-content no-hovercard" style="margin-top:50px;float:left;margin-left:50px;">
+    <div class="gwk-profile-card member">
+    <div class="upper">
+        <a class="avatar-link" href="#" style="">
+            <img src="img/avatar.jpg" class="avatar avatar-xs"  alt="Johhny Zhang"   >
+            <span class="name">Johnny Zhang</span>
+        </a>
+        <i class="icon male"></i>
+        <div class="gwk-user-info">
+            <ul class=" list-inline gwk-info-address">
+                <li><a href="#">广东</a></li>
+                <li><a href="#">深圳</a></li>
+                <li><a href="#"></a></li>
+            </ul>
+        </div>
+        <div class="tagline" title="简介">要么旅游,要么阅读,心灵和脚步,总有一个在路上。</div>
+        <div class="tag">
+            <span>标签：</span>
+            <a href="#" class="label label-default label-skit"><i class="tag-name">滑雪</i></a>
+            <a href="#" class="label label-default label-climb"><i class="tag-name">爬山</i></a>
+            <a href="#" class="label label-default label-walk"><i class="tag-name">徒步</i></a>
+        </div>
+    </div>
+    <div class="lower clearfix">
+        <div class="meta">
+            <a class="item" target="_blank" href="#">
+                <span class="value">130</span>
+                <span class="key">想去</span>
+            </a>
+            <a class="item" target="_blank" href="#">
+                <span class="value">34</span>
+                <span class="key">去过</span>
+            </a>
+            <a class="item" target="_blank" href="#">
+                <span class="value">103K</span>
+                <span class="key">关注者</span>
+            </a>
+        </div>
+        <div class="operation">
+            <button data-follow="m:button" data-id="28" class="gwk-btn gwk-btn-follow gwk-rich-follow-btn">关注他</button>
+            <a href="#" class="gwk-btn-white member-profile-card-pm" data-pm-name="Johnny zhang" data-pm-hash="">
+                <i class="gwk-icon pm glyphicon glyphicon-envelope" title="私信"></i>
+            </a>
+        </div>
+    </div>
+</div></div>'>点我
+</button>-->
+<div id="LinkDIV" style="float:left;width:200px">
+    <button type="btn btn-lg btn-primary" data-toggle="popover" >弹出框3</button>
+</div>
+<!--
+<script>
+    $(document).ready(function() {
+        $('#custom').popover(
+                {
+                    trigger:'hover', //触发方式('hover','focus','click')
+                    template: '<div class="popover" role="tooltip">' +
+                    '<div class="arrow"></div>' +
+                    '<h3 class="popover-title"></h3><div class="popover-content">' +
+                    '</div></div>',
+                    html: true,    // 为true的话，data-content里就能放html代码了
+                    // 还有很多选项 ……
+                     title:"标题",  //设置 弹出框 的标题
+                      content:""   //这里可以直接写字符串，也可以 是一个函数，该函数返回一个字符
+                }
+        );
+    });
+    //实现上下左右四种浮动效果，计算元素相对于浏览器窗口的相对位置进，选择特定的效果
+  // Tooltip.prototype.show = function() {
+//
+  //      elTopLocation = this.getBoundingClientRect().top;
+  //      elBottomLocation = window.innerHeight - this.getBoundingClientRect().bottom;
+   //     elLeftLocation = this.getBoundingClientRect().left;
+    //    elRightLocation = window.innerWidth - this.getBoundingClientRect().right;
+
+  //      var direction;
+    //    direction = elLeftLocation < minVerticalDistance ? 'right' : 'left';
+    //    direction = elBottomLocation < minHorizonDistance ? 'top' : 'bottom';
+
+   //     $(this).addClass('hint hint--'+direction);
+   //     return this.direction = direction;
+   // };
+</script>
+-->
+<script>
+    $(function () {
+       // $("#LinkDIV").html('<button type="btn btn-lg btn-primary" data-toggle="popover" id="temp3">弹出框3</button>');
+    $('[data-toggle="popover"]').each(function () {
+        var element = $(this);
+        var id = element.attr('id');
+        var txt = element.html();
+        element.popover({
+            trigger: 'manual',
+            placement: 'bottom', //top, bottom, left or right
+            title: txt,
+            html: 'true',
+            content: ContentMethod(txt)
+        }).on("mouseenter", function () {
+            var _this = this;
+            $(this).popover("show");
+            $(this).siblings(".popover").on("mouseleave", function () {
+                $(_this).popover('hide');
+            });
+        }).on("mouseleave", function () {
+            var _this = this;
+            setTimeout(function () {
+                if (!$(".popover:hover").length) {
+                    $(_this).popover("hide")
+                }
+            }, 100);
+        });
+    });
+    });
+    function ContentMethod(txt) {
+        return '<div class="popover-content no-hovercard" style="margin-top:50px;float:left;margin-left:50px;"><div class="gwk-profile-card member"><div class="upper">'
+                +'<a class="avatar-link" href="#" style=""><img src="img/avatar.jpg" class="avatar avatar-xs" alt="Johhny Zhang"><span class="name">Johnny Zhang</span></a>'
+                +'<i class="icon male"></i>'
+                +'<div class="gwk-user-info"><ul class=" list-inline gwk-info-address"><li><a href="#">广东</a></li><li><a href="#">深圳</a></li><li><a href="#"></a></li></ul></div>'
+                +'<div class="tagline" title="简介">要么旅游,要么阅读,心灵和脚步,总有一个在路上。</div>' +
+                '<div class="tag"><span>标签：</span><a href="#" class="label label-default label-skit"><i class="tag-name">滑雪</i></a>' +
+                ' <a href="#" class="label label-default label-climb"><i class="tag-name">爬山</i></a>' +
+                ' <a href="#" class="label label-default label-walk"><i class="tag-name">徒步</i></a></div></div>'
+                 +'<div class="lower clearfix"> <div class="meta"><a class="item" target="_blank" href="#"> <span class="value">130</span> <span class="key">想去</span></a>'
+               +'<a class="item" target="_blank" href="#"> <span class="value">34</span> <span class="key">去过</span></a>'
+               +'<a class="item" target="_blank" href="#"><span class="value">103K</span><span class="key">关注者</span> </a></div>'
+                +'<div class="operation"> <button data-follow="m:button" data-id="28" class="gwk-btn gwk-btn-follow gwk-rich-follow-btn">关注他</button>'
+                +'<a href="#" class="gwk-btn-white member-profile-card-pm" data-pm-name="Johnny zhang" data-pm-hash=""> <i class="gwk-icon pm glyphicon glyphicon-envelope" title="私信"></i> </a> </div> </div> </div></div>'
+                ;
+    }
+</script>
+</body>
+</html>

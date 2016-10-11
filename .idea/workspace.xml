@@ -1,9 +1,225 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c649b7f8-b798-4af0-aaab-5bec9a0f9cfb" name="Default" comment="">
+    <list default="true" id="c649b7f8-b798-4af0-aaab-5bec9a0f9cfb" name="Default" comment="update 个人简历 bower.json">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/book/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/book/css.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/book/divcss.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/book/html5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/book/javascript3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/book/javasdom.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/daxue.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/daxue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/gotop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/gugong.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/gugong/gugong01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/gugong/gugong02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/gugong/gugong03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/gugong/gugong04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/gugong/gugong05.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/gugong/gugong06.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/hhwq.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/hhwq.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/life.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/search.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/shenzhen/sz01.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/shenzhen/sz02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/shenzhen/sz03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/shenzhen/sz04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/shenzhen/sz05.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/shenzhen/sz06.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/shenzhen/sz07.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/shenzhen/sz08.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/shenzhentong.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/sz.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/taishan/ts01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/taishan/ts02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/taishan/ts03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/taishan/ts04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/taishan/ts05.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/taishan/ts06.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/ts.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/xihu/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/xihu/psb (1).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/xihu/psb (10).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/xihu/psb (11).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/xihu/psb (12).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/xihu/psb (2).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/xihu/psb (3).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/xihu/psb (4).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/xihu/psb (5).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/xihu/psb (6).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/xihu/psb (7).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/xihu/psb (8).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/xihu/psb (9).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/xihu/psb.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/xitang.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/xitang/xitang01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/xitang/xitang02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/xitang/xitang03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/xitang/xitang05.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/xitang/xitang06.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/xitang/xitang07.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/yanchanghui.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/ych/ych03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/ych/ych04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/ych/ych05.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/ych/ych06.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/ych/ych07.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/ych/ych08.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/ych/ych09.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/yeoman.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/young.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/images/zan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/dentist-website/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/dentist-website/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/dentist-website/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/dentist-website/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/dentist-website/img/field.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/dentist-website/img/flickerplate/arrow-left-dark.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/dentist-website/img/flickerplate/arrow-left-light.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/dentist-website/img/flickerplate/arrow-right-dark.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/dentist-website/img/flickerplate/arrow-right-light.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/dentist-website/img/flickerplate/arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/dentist-website/img/footer_l.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/dentist-website/img/footer_r.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/dentist-website/img/forest.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/dentist-website/img/frozen-water.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/dentist-website/img/logo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/dentist-website/img/mnbg1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/dentist-website/img/sp3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/dentist-website/img/tel.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/dentist-website/img/xmtt.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/dentist-website/img/xuanfu.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/person_card/fonts/fz.TTF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/person_card/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/person_card/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/person_card/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/person_card/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/person_card/img/avatar.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/person_card/img/head.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/person_card/img/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/share/images/icon_for_weixin_share.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/share/images/moneylocker.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/share/images/share.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/share/images/share1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/zhihu/802.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/zhihu/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/zhihu/signup-1.3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/zhihu/zhihu.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/zhihu/zhihu1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/zhuanpan/images/aaicon512.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/zhuanpan/images/bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/zhuanpan/images/but.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/zhuanpan/images/calenderL.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/zhuanpan/images/cll.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/zhuanpan/images/collect.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/zhuanpan/images/download1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/zhuanpan/images/download2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/zhuanpan/images/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/zhuanpan/images/lingyuan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/zhuanpan/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/zhuanpan/images/logo2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/zhuanpan/images/notepadL.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/zhuanpan/images/pan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/zhuanpan/images/people.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/zhuanpan/images/shan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/zhuanpan/images/tittle_03.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/zhuanpan/images/todosL.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/zhuanpan/images/tyang_03.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/zhuanpan/images/you.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/zhuanpan/images/yun.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/zhuanpan/images/yun1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/zhuanpan/images/yun2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/zhuanpan/images/yun3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/zhuanpan/images/zhuanpan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/zhuanpan/images/zuo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/blade.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TravelMap/.idea/TravelMap.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TravelMap/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TravelMap/.idea/jsLibraryMappings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TravelMap/.idea/libraries/TravelMap_node_modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TravelMap/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TravelMap/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/.bowerrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/.editorconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/.gitattributes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/.jscsrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/.yo-rc.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/Gruntfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/404.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/robots.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/scripts/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/scripts/controllers/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/styles/article.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/styles/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/styles/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/styles/golbal.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/styles/item.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/styles/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/styles/phone.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/styles/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/about.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/art.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/example.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/dentist-website/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/dentist-website/css/flickerplate.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/dentist-website/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/dentist-website/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/dentist-website/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/dentist-website/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/dentist-website/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/dentist-website/js/flickerplate.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/dentist-website/js/jquery-1.8.3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/dentist-website/js/jquery-2.1.4.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/dentist-website/js/jquery-finger-v0.1.0.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/dentist-website/js/jquery.bootstrap-dropdown-hover.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/dentist-website/js/jquery.fullPage.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/dentist-website/js/modernizr-custom-v2.7.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/dentist-website/js/npm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/person_card/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/person_card/css/popover-style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/person_card/css/popover.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/person_card/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/person_card/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/person_card/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/person_card/js/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/person_card/js/popover.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/share.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/share/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/zhihu.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/zhihu/css.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/zhihu/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/zhuanpan.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/zhuanpan/css/animate.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/zhuanpan/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/zhuanpan/css/wap_main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/item/zhuanpan/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/main.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/novel.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/story/story01.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/story/story02.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/story/story03.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/story/story04.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/story/story05.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/story/story06.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/travel.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/travel/gugong.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/travel/taishan.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/travel/xitang.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/app/views/zaji.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/test/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html-blog/test/spec/controllers/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/me/bower.json" afterPath="$PROJECT_DIR$/me/bower.json" />
     </list>
     <ignored path="front-end-project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,58 +240,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="Gruntfile.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TravelMap/Gruntfile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2299">
-              <caret line="417" column="6" selection-start-line="417" selection-start-column="6" selection-end-line="417" selection-end-column="6" />
-              <folding>
-                <element signature="e#654#727#0" expanded="false" />
-                <element signature="e#934#1855#0" expanded="false" />
-                <element signature="e#1574#1849#0" expanded="false" />
-                <element signature="e#1911#3136#0" expanded="false" />
-                <element signature="e#1928#2085#0" expanded="false" />
-                <element signature="e#2105#2598#0" expanded="false" />
-                <element signature="e#2612#3019#0" expanded="false" />
-                <element signature="e#3033#3130#0" expanded="false" />
-                <element signature="e#3198#3553#0" expanded="false" />
-                <element signature="e#3609#3871#0" expanded="false" />
-                <element signature="e#3923#4159#0" expanded="false" />
-                <element signature="e#4209#4730#0" expanded="false" />
-                <element signature="e#4804#5347#0" expanded="false" />
-                <element signature="e#5414#5688#0" expanded="false" />
-                <element signature="e#5910#6207#0" expanded="false" />
-                <element signature="e#7444#7657#0" expanded="false" />
-                <element signature="e#7672#7870#0" expanded="false" />
-                <element signature="e#7886#8256#0" expanded="false" />
-                <element signature="e#8276#8563#0" expanded="false" />
-                <element signature="e#8724#8905#0" expanded="false" />
-                <element signature="e#8957#9030#0" expanded="false" />
-                <element signature="e#9103#9871#0" expanded="false" />
-                <element signature="e#9954#10135#0" expanded="false" />
-                <element signature="e#10170#10265#0" expanded="false" />
-                <element signature="e#11171#11421#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/me/js/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/me/README.md">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="57">
-                <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+              <first_editor relative-caret-position="180">
+                <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -84,7 +254,7 @@
         </entry>
       </file>
       <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/todo/app/views/main.html">
+        <entry file="file://$PROJECT_DIR$/html-blog/app/views/main.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -94,60 +264,30 @@
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/todo/app/index.html">
+        <entry file="file://$PROJECT_DIR$/html-blog/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1026">
-              <caret line="54" column="10" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
+            <state relative-caret-position="576">
+              <caret line="27" column="13" selection-start-line="25" selection-start-column="37" selection-end-line="27" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gruntfile.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/todo/Gruntfile.js">
+      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html-blog/app/views/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1007">
-              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/todo/package.json">
+      <file leaf-file-name="art.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html-blog/app/views/art.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/me/gulpfile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bower.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/me/bower.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cn.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/me/cn.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1938">
-              <caret line="102" column="31" selection-start-line="102" selection-start-column="29" selection-end-line="102" selection-end-column="61" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -164,7 +304,6 @@
         <option value="$PROJECT_DIR$/BaiDuMap/.editorconfig" />
         <option value="$PROJECT_DIR$/BaiDuMap/README.md" />
         <option value="$PROJECT_DIR$/Travel Map/app/scripts/map_config.js" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Travel Map/app/app/data/get_data.php" />
         <option value="$PROJECT_DIR$/Travel Map/app/data/get_data.php" />
         <option value="$PROJECT_DIR$/Travel Map/README.md" />
@@ -174,6 +313,9 @@
         <option value="$PROJECT_DIR$/me/README.md" />
         <option value="$PROJECT_DIR$/todo/package.json" />
         <option value="$PROJECT_DIR$/me/bower.json" />
+        <option value="$PROJECT_DIR$/html-blog/css/item.css" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/html-blog/app/index.html" />
       </list>
     </option>
   </component>
@@ -188,10 +330,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1096" />
-    <option name="height" value="1896" />
+    <option name="x" value="-13" />
+    <option name="y" value="-13" />
+    <option name="width" value="2762" />
+    <option name="height" value="1770" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -218,8 +360,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -248,40 +388,14 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TravelMap" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="front-end-project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="front-end-project" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="todo" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="front-end-project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="front-end-project" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="me" />
+              <option name="myItemId" value="html-blog" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -291,16 +405,19 @@
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\zq199\PhpstormProjects\front-end-project\Travel Map" />
-      <recent name="C:\Users\zq199\PhpstormProjects\front-end-project" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\zq199\PhpstormProjects\front-end-project\html-blog\app\views" />
+      <recent name="C:\Users\zq199\PhpstormProjects\front-end-project\html-blog" />
       <recent name="C:\Users\zq199\PhpstormProjects\front-end-project" />
       <recent name="C:\Users\zq199\PhpstormProjects\front-end-project\me" />
       <recent name="C:\Users\zq199\PhpstormProjects\front-end-project\Travel Map\app\scripts\controllers" />
-      <recent name="C:\Users\zq199\PhpstormProjects\front-end-project\Travel Map\app\views" />
-      <recent name="C:\Users\zq199\PhpstormProjects\front-end-project\Travel Map\app\styles" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\zq199\PhpstormProjects\front-end-project\html-blog\app\views" />
+      <recent name="C:\Users\zq199\PhpstormProjects\front-end-project\html-blog\app\images\ych" />
+      <recent name="C:\Users\zq199\PhpstormProjects\front-end-project\html-blog\app\images\xitang" />
+      <recent name="C:\Users\zq199\PhpstormProjects\front-end-project\html-blog\app\images\gugong" />
+      <recent name="C:\Users\zq199\PhpstormProjects\front-end-project\html-blog\app\images" />
     </key>
   </component>
   <component name="RunManager">
@@ -390,7 +507,8 @@
       <workItem from="1475664769840" duration="2144000" />
       <workItem from="1475934873351" duration="624000" />
       <workItem from="1475976376606" duration="619000" />
-      <workItem from="1476007561262" duration="227000" />
+      <workItem from="1476007561262" duration="496000" />
+      <workItem from="1476192368850" duration="2214000" />
     </task>
     <task id="LOCAL-00001" summary="Travel Map">
       <created>1472997567981</created>
@@ -574,23 +692,30 @@
       <option name="project" value="LOCAL" />
       <updated>1475935093576</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="update 个人简历 bower.json">
+      <created>1476007817651</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1476007817651</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24902000" />
+    <option name="totallyTimeSpent" value="27385000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1096" height="1896" extended-state="0" />
-    <editor active="true" />
+    <frame x="-13" y="-13" width="2762" height="1770" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3262548" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33132076" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980832" sideWeight="0.5015094" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34449488" sideWeight="0.49849057" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35095835" sideWeight="0.49849057" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -637,7 +762,8 @@
     <MESSAGE value="更新： 列表页增加排序和搜索功能" />
     <MESSAGE value="update Gruntfile.js" />
     <MESSAGE value="个人简历和TODO项目代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="个人简历和TODO项目代码" />
+    <MESSAGE value="update 个人简历 bower.json" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 个人简历 bower.json" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -646,184 +772,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="144">
-            <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TravelMap/app/data/data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TravelMap/.editorconfig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TravelMap/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="76">
-            <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TravelMap/app/data/data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TravelMap/.editorconfig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TravelMap/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="432">
-            <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TravelMap/app/scripts/map_config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="144">
-            <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Travel Map/app/app/data/data.json" />
-    <entry file="file://$PROJECT_DIR$/TravelMap/.editorconfig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TravelMap/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="432">
-            <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TravelMap/app/scripts/map_config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TravelMap/.editorconfig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TravelMap/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="432">
-            <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TravelMap/app/scripts/map_config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TravelMap/.editorconfig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TravelMap/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TravelMap/.editorconfig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Travel Map/app/app/data/data.json" />
     <entry file="file://$PROJECT_DIR$/Travel Map/app/app/data/get_data.php" />
     <entry file="file://$PROJECT_DIR$/TravelMap/app/data/get_data.php">
@@ -837,16 +785,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="144">
-            <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -899,10 +837,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -910,12 +844,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="551">
           <caret line="68" column="10" selection-start-line="68" selection-start-column="10" selection-end-line="68" selection-end-column="10" />
-          <folding>
-            <element signature="e#999#2785#0" expanded="false" />
-            <element signature="e#2831#3631#0" expanded="false" />
-            <marker date="1473535580764" expanded="true" signature="4796:4834" ph="..." />
-            <marker date="1473535580764" expanded="true" signature="4903:4979" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -923,7 +851,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1691">
           <caret line="89" column="22" selection-start-line="89" selection-start-column="22" selection-end-line="89" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -939,9 +866,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-          <folding>
-            <element signature="e#334#458#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -949,56 +873,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2299">
           <caret line="417" column="6" selection-start-line="417" selection-start-column="6" selection-end-line="417" selection-end-column="6" />
-          <folding>
-            <element signature="e#654#727#0" expanded="false" />
-            <element signature="e#934#1855#0" expanded="false" />
-            <element signature="e#1574#1849#0" expanded="false" />
-            <element signature="e#1911#3136#0" expanded="false" />
-            <element signature="e#1928#2085#0" expanded="false" />
-            <element signature="e#2105#2598#0" expanded="false" />
-            <element signature="e#2612#3019#0" expanded="false" />
-            <element signature="e#3033#3130#0" expanded="false" />
-            <element signature="e#3198#3553#0" expanded="false" />
-            <element signature="e#3609#3871#0" expanded="false" />
-            <element signature="e#3923#4159#0" expanded="false" />
-            <element signature="e#4209#4730#0" expanded="false" />
-            <element signature="e#4804#5347#0" expanded="false" />
-            <element signature="e#5414#5688#0" expanded="false" />
-            <element signature="e#5910#6207#0" expanded="false" />
-            <element signature="e#7444#7657#0" expanded="false" />
-            <element signature="e#7672#7870#0" expanded="false" />
-            <element signature="e#7886#8256#0" expanded="false" />
-            <element signature="e#8276#8563#0" expanded="false" />
-            <element signature="e#8724#8905#0" expanded="false" />
-            <element signature="e#8957#9030#0" expanded="false" />
-            <element signature="e#9103#9871#0" expanded="false" />
-            <element signature="e#9954#10135#0" expanded="false" />
-            <element signature="e#10170#10265#0" expanded="false" />
-            <element signature="e#11171#11421#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/me/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/me/cn.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1938">
-          <caret line="102" column="31" selection-start-line="102" selection-start-column="29" selection-end-line="102" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/me/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="57">
+          <first_editor relative-caret-position="108">
             <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
             <folding />
           </first_editor>
@@ -1016,7 +897,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/todo/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
+        <state relative-caret-position="1944">
           <caret line="54" column="10" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
           <folding />
         </state>
@@ -1027,7 +908,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1037,13 +917,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/todo/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1007">
+        <state relative-caret-position="684">
           <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding />
         </state>
@@ -1051,7 +930,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/todo/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
+        <state relative-caret-position="1188">
           <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
           <folding />
         </state>
@@ -1059,16 +938,195 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/me/bower.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
+        <state relative-caret-position="864">
           <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TravelMap/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1210">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/me/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
+        <state relative-caret-position="732">
           <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/me/cn.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="830">
+          <caret line="102" column="31" selection-start-line="102" selection-start-column="29" selection-end-line="102" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/me/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html-blog/app/styles/item.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="180">
+            <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html-blog/app/views/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html-blog/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2330">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html-blog/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html-blog/js/npm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html-blog/app/images/ych/ych03.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html-blog/app/images/yanchanghui01.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html-blog/app/images/yanchanghui02.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html-blog/app/images/yanchenghuipiao.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html-blog/app/images/daxue.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html-blog/app/images/cyxych.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html-blog/app/images/zan.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html-blog/app/images/shenzhentong.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html-blog/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="27" column="13" selection-start-line="25" selection-start-column="37" selection-end-line="27" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html-blog/wild/mystyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html-blog/wild/person.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1620">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html-blog/wild/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4212">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html-blog/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html-blog/app/views/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html-blog/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6195">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html-blog/app/views/art.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

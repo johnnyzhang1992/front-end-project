@@ -1,0 +1,473 @@
+
+/*media screen,print*/
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    line-height: 1.7;
+    background: #f1f5f8 url(/static/img/201304_sign/bg.png);
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+#header{
+height:360px;
+width:100%;
+background-color:rgb(0,120,216);
+}
+
+
+.sign-flow .view{
+	display:none;
+	float:right;
+	width:202px;
+	margin:38px 0;
+}
+form{
+	display:block;
+	margin-top:oem;
+}
+input[type="hidden"]{
+	padding:initial;
+	background-color:initial;
+	border:initial;
+	display:none;
+}
+.view-singin{
+float:right;
+display:none;
+width:202px;
+margin-top:38px;
+color:#fff;
+}
+#login{
+float:right;
+width:180px;
+margin-top:38px;
+margin-bottom:px;
+
+}
+#hleft{
+float:left;
+width:370px;
+height:360px;
+}
+.js-signup{
+float:right;
+}
+.js-signin{
+	float:right;
+}
+.title a{
+color:#fff;
+text-decoration:none;
+}
+.icon-sign{
+display:inline-block;
+background-image:url(http://static.zhihu.com/static/revved/img/201304_sign/signup-1.3.da2d2f63.png);
+background-repeat:no-repeat;
+}
+.icon-sign-arrow {
+	margin-left:8px;
+	background-position:-1px -1px;
+	width:18px;
+    height:19px;
+	vertical-align:-5px;
+    display:line-block;
+    transition:.1s all ease-in-out;
+	}
+.sign-flow .view .sign-switch{
+	float:right;
+}	
+.top .form-wrapper .desk-front .icon-sign-arrow-1{
+	display:none;
+}
+.icon-sign-arrow-1{
+	margin-right:8px;
+	background-position:-70px -1px;
+}
+.return a{
+color:#fff;
+text-decoration:none;
+}
+.icon-sign-arrow-1{
+width:18px;
+height:19px;
+vertical-align:-5px;
+transition:.1s all ease-in-out;
+}
+.js-title-lable{
+color:#fff;
+
+}
+.input-wrapper{
+position:relative;
+margin-top:18px;
+
+}
+.sign-flow .view .input-wrapper input{
+margin:0;
+width:201px;
+padding:8px 10px;
+background:#e7f1f8;
+font-size:15px;
+line-height:17px;
+color:#555;
+border:1px solid #1672B9;
+border-radius:5px;
+box-shadow:inset 0px 1px 2px rgba(15,82,135,0.25),0px 1px 0px rgba(255,255,255);
+}
+.top .from-wrapper .captcha-wrap .input-wrapper .captcha{
+	text-align:right;
+	line-height:40px;
+	font-size:13px;
+}
+.top .form-wrapper .captcha-wrap .input-wrapper .captcha img{
+	float:left;
+	width:80px;
+	height:40px;
+	border-radius:4px;
+}
+.button-wrapper command{
+margin-top:18px;
+}
+.sign-flow .view .failure{
+	display:none;
+	margin-top:18px;
+	padding:10px;
+	width:182px;
+	font-size:13px;
+	background:rgba(0,0,0,.1);
+	border-radius:4px;
+	box-shadow:0 1px 1px rgba(0,0,0,.1) inset,0 1px 0 rgba(255,255,255,.15);
+}
+/*media screen,print*/
+.sign-button {
+    display: block;
+    padding: 0;
+    width: 100%;
+    font-size: 15px;
+    line-height: 33px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0px 1px 1px rgba(0,0,0,0.2);
+    background: #80C3F7;
+    background: -webkit-gradient(linear,left top,left bottom,from(#80c3f7),to(#6bbaf8));
+    border: 1px solid #1D80CF;
+    border-radius: 5px;
+    box-shadow: inset 0px 1px 0px rgba(255,255,255,0.3), 0px 1px 1px rgba(50,50,50,0.05);
+    outline: 0;
+    cursor: pointer;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/*media screen,print*/
+#logo {
+    position: absolute;
+    margin-top: 118px;
+    width: 345px;
+    height: 124px;
+    background-image:url(logo.png);
+	}
+/*media screen,print*/
+.sign-flow .view .signin-misc-wrapper {
+    font-size: 13px;
+}
+/*media screen,print*/
+.sign-flow .view .input-wrapper, .sign-flow .view .button-wrapper, .sign-flow .view .signin-misc-wrapper, .sign-flow .view .weibo-signup-wrapper {
+    margin-top: 18px;
+}
+/*media screen,print*/
+.sign-flow .view .signin-misc-wrapper .remember-me {
+    float: left;
+}
+/*media screen,print*/
+.sign-flow .view .signin-misc-wrapper .remember-me input {
+    vertical-align: 1px;
+    margin-right: 3px;
+}
+/*media screen,print*/
+.sign-flow .view .signin-misc-wrapper .unable-login {
+    float: right;
+}
+/*media screen,print*/
+a {
+   text-decoration:none;
+}
+/*media screen,print*/
+.sign-flow .view .input-wrapper, .sign-flow .view .button-wrapper, .sign-flow .view .signin-misc-wrapper, .sign-flow .view .weibo-signup-wrapper {
+    margin-top: 18px;
+}
+/*media screen,print*/
+.top a {
+    color: #fff;
+}
+/*media screen,print*/
+.z-ico-wechat-unlogin-page {
+    display: inline-block;
+    vertical-align: -4px;
+}
+/*media screen,print*/
+.z-ico-wechat-unlogin-page {
+    background-position: -50px -19px;
+    width: 20px;
+    height: 18px;
+}
+/*@media screen and (-webkit-min-device-pixel-ratio:1), not all, not all, not all, screen and (min-resolution:1dppx)*/
+.z-ico-wechat-right-panel, .z-ico-show-password, .z-ico-hide-password, .z-ico-weibo, .z-ico-wechat-unlogin-page, .z-ico-green-check, .z-ico-gray-check, .z-ico-qq, .z-ico-wechat, .z-ico-textedit, .z-ico-shameimaru-close, .z-ico-left, .z-ico-close, .z-ico-community:hover, .z-ico-community {
+    background-image: url(http://www.zhihu.com/static/img/compiled/icons_90b500b960.png);
+}
+/*media screen,print*/
+.z-ico-wechat-right-panel, .z-ico-show-password, .z-ico-hide-password, .z-ico-weibo, .z-ico-wechat-unlogin-page, .z-ico-green-check, .z-ico-gray-check, .z-ico-qq, .z-ico-wechat, .z-ico-textedit, .z-ico-shameimaru-close, .z-ico-left, .z-ico-close, .z-ico-community:hover, .z-ico-community {
+    background-image: url(http://www.zhihu.com/static/img/compiled/icons_90b500b960.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: 89px 77px;
+    -moz-background-size: 89px 77px;
+    background-size: 89px 77px;
+}
+/*media screen,print*/
+.sign-flow .view .weibo-signup-wrapper a + a {
+    margin-left: 5px;
+}
+/*media screen,print*/
+.icon-sign-sina {
+    width: 21px;
+    height: 19px;
+    margin-right: 2px;
+    vertical-align: -4px;
+    background-position: -17px -1px;
+}
+/*media screen,print*/
+.icon-sign {
+    display: inline-block;
+    background-image: url(http://www.zhihu.com/static/img/201304_sign/signup-1.3.png);
+    background-repeat: no-repeat;
+}
+/*media screen,print*/
+.sign-flow .view .weibo-signup-wrapper a + a {
+    margin-left: 5px;
+}
+/*media screen,print*/
+.icon-sign-qq {
+    width: 16px;
+    height: 18px;
+    vertical-align: -2px;
+    background-position: -90px 0;
+}
+.weibo-signup-wrapper{
+	color:#fff;
+}
+
+#login-content{
+font-family:黑体;
+text-align:justify;
+font-size:15px;
+line-height:17px;
+margin-bottom:10px;
+}
+#blank{
+height:10px;}
+#submit{
+  width: 180px;
+  height:35px;
+  color:white;
+  font-size: 15px;
+  line-height: 17px;
+  border: 1px solid #1672B9;
+  border-radius: 5px;
+  background:#80C3F7;
+
+}
+#content{
+background-color:#f1f5f8;
+height:420px;
+width:740px;
+border-bottom:1px;
+margin:auto;
+
+}
+#center{
+width:740px;
+height:420px;
+margin:auto; 
+}
+
+#left{
+margin-top:50px;
+width:228px;
+height:370px;
+float:left;
+background-color:#f1f5f8;
+}
+
+#img802{
+width:62px;
+height:62px;
+border-radius:32px;
+margin-right:10px;
+margin-bottom:10px;
+}
+.info-card{
+display:none;
+color:white;
+}
+/*media screen,print*/
+.rep {
+    float: left;
+    width: 62px;
+    height: 62px;
+    margin: 0 10px 10px 0;
+    background: #fff;
+    box-shadow: 0px 1px 1px rgba(100,100,100,0.15);
+    border-radius: 32px;
+    cursor: pointer;
+	border:2px solid white;
+}
+.rep1 {
+    float: left;
+    width: 62px;
+    height: 62px;
+    margin: 0 10px 10px 0;
+    background: #fff;
+    box-shadow: 0px 1px 1px rgba(100,100,100,0.15);
+    border-radius: 32px;
+    cursor: pointer;
+}
+.rep img:hover{
+width:64px;
+height:64px;
+border-radius:33px;
+margin=-1px;
+}
+
+
+#right{
+width:482px;
+height:370px;
+float:right ;
+margin-top:50px;
+border-radius:3px;
+background-color:#fff;
+}
+#con{
+width:440px;
+height:349px;
+margin:auto;
+padding:21px 21px 21px 21px;
+
+}
+.rep2 {
+    float: left;
+    width: 46px;
+    height: 46px;
+ 
+}
+#img804{
+width:46px;
+height:46px;
+border-radius:25px;
+margin-right:10px;
+margin-bottom:10px;
+background: #fff;
+box-shadow: 0px 1px 1px rgba(100,100,100,0.15);
+cursor: pointer;
+}
+/*media screen,print*/
+a {
+    text-decoration: none;
+	color:#7491a8;
+}
+.name{
+text-shadow:none;
+margin-right:8px;
+
+}
+#story-title{
+margin-left:62px;
+color:#7491a8;
+text-shadow:none ;
+
+}
+#story-title div+div{
+margin-top:3px;
+}
+.sep{
+margin-top:18px;
+height:17px;
+border-top:1px solid #f3f3f7;
+}
+.story-content,answer{
+color:#7491a8;
+text-shadow:none;
+}
+.vote{
+float:left;
+width:38px;
+height:25px;
+font-size:14px;
+line-height:25px;
+color:#fff;
+text-align:center;
+background:#b0c5d6;
+border-radius:3px;
+}
+.vote-p{
+margin-left:44px;
+margin-bottom:10px;
+}
+.story-end{
+color:#7491a8;
+text-shadow:none;
+}
+.footer{
+padding-bottom:60px;
+text-align:center;
+margin:0 auto;
+font-size:12px;
+margin-top:20px;
+}
+.links{
+display:inline-block;
+text-shadow:0px 1px 0px rgba(255,255,255.0.8);
+}
+.footer span,.footer a{
+color:#aebdc9;
+}
+.footer .links .dot {
+    margin: 0 3px;
+}
+.footer span, .footer a {
+    color: #aebdc9;
+}
+.footer span, .footer a {
+    color: #aebdc9;
+}
+
+a {
+    text-decoration: none;
+}
+/*media screen,print*/
+.footer .app-link {
+    margin-left: 30px;
+}
+/*media screen,print*/
+.icon-sign-ios {
+    width: 153px;
+    background-position: 0 -23px;
+}
+/*media screen,print*/
+.icon-sign-ios, .icon-sign-android {
+    height: 38px;
+    vertical-align: -5px;
+}
+/*media screen,print*/
+.icon-sign {
+    display: inline-block;
+    background-image: url(signup-1.3.png);
+    background-repeat: no-repeat;
+}
+/*media screen,print*/
+.icon-sign-android {
+    width: 183px;
+    background-position: 0 -61px;
+}

@@ -1,0 +1,177 @@
+.navbar{
+    margin-bottom:0;
+}
+.navbar-header{
+    margin:0;
+    padding-left: 15px;
+}
+
+.form-group{
+    padding-left:px;
+}
+.row-left{
+    margin-top:0;
+}
+.thumbnail{
+    border: 0px;
+}
+.row-right{
+    margin:0;
+
+    padding:0;
+
+}
+.row-header{
+    margin-left:15px;
+    padding-bottom:5px;
+    margin-top:10px;
+    border-bottom: 1px solid #ededed;
+}
+.row-header1{
+    padding-bottom:5px;
+    margin-top:10px;
+    border-bottom: 1px solid #ededed;;
+}
+
+.row-header span{
+    margin-right:5px;
+}
+.media{
+    border-bottom: 1px solid #ededed;
+}
+.media-left{
+    padding-bottom:5px ;
+}
+.media-heading{
+
+}
+.media-body{
+    padding-top:5px;
+}
+
+.list-group{
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:12px;
+}
+.list-group-item{
+    border: 0;
+    margin:0;
+    padding:0;
+}
+.badge{
+    margin-left:3px;
+    background-color:#4cae4c;
+    font-size:12px;
+}
+.post-meta{
+    margin-bottom:5px;
+}
+.row-right .post-meta ul li span{
+
+    font-size: 14px;
+}
+.row-right .post-meta ul li {
+    height:35px;
+}
+.pagination{
+    display:none;
+    z-index:-1;
+}
+.footer{
+    margin:0;
+    padding:0;
+}
+.glyphicon{
+    padding-right:5px; ;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0;
+    }
+
+    .row-header {
+        display: none;
+    }
+
+    .row-left {
+        margin: 0;
+        padding: 0;
+    }
+    .navbar-default .navbar-collapse ul li{
+        width:113px;
+    }
+    .navbar-default .container .navbar-header {
+        margin: 0;
+    }
+
+    .nav > li {
+        float: left;
+    }
+
+    #p_lt_ctl04_smartSearchBox_lblSearch {
+        margin-right: -50px;
+    }
+
+    .footer {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 40px;
+        background-color: #e7e7e7;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .row-right {
+        margin: 0;
+        padding: 0;
+    }
+
+    .glyphicon {
+        padding-right: 5px;;
+    }
+
+    .navbar-header {
+        margin: 0;
+        padding: 0;
+        padding-left: 10px;
+    }
+
+    .pager {
+        padding-top: 10px;
+    }
+
+    .row-right-con {
+        padding-left: 20px;
+    }
+
+    .navbar-nav ul li {
+        margin: 0;
+    }
+}
+@media screen and (min-width: 600px) {
+   .row-right{
+       margin-left: 80px;
+   }
+
+}
+@media screen and (max-width: 1048px) {
+  .navbar-default .navbar-collapse .navbar-form{
+      display: none!important;;
+  }
+
+}
+@media screen and (max-width: 960px) {
+    .navbar-default .navbar-collapse{
+        margin:0 !important;;
+    }
+    .row-right{
+        margin:0 !important;
+    }
+
+}

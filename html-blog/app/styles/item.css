@@ -1,0 +1,33 @@
+.yanshi{
+	width:100%;	
+	margin:0 auto;
+}
+.yanshi img{
+	width:100%;
+	border-radius:5px;
+	margin-bottom:10px;
+}
+.nav-yanshi{
+	width:220px;
+	margin:0 auto;
+}
+.yanshi a{
+	display:inline-block;
+	width:100px;
+	height:30px;
+    margin-right:20px;
+	color:#fff;
+	background:#222;
+	line-height:30px;
+	font-size:20px;
+	text-align:center;
+	border-radius:4px;
+	padding:4px 10px 4px 10px;
+}
+.nav-yanshi a:hover
+{
+ background-color:#444;
+}
+.jieshao{
+	width:100%;
+}
